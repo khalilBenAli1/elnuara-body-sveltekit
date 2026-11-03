@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "method": "Actual adapter-static output. Sum of individual file bytes and Node zlib gzip bytes across all routes; not an initial-page transfer or Lighthouse score.",
+  "groups": {
+    "javascript": {
+      "files": 28,
+      "bytes": 171755,
+      "gzipBytes": 68825
+    },
+    "stylesheets": {
+      "files": 1,
+      "bytes": 45834,
+      "gzipBytes": 9264
+    },
+    "fonts": {
+      "files": 2,
+      "bytes": 94660,
+      "gzipBytes": 94731
+    },
+    "photographs": {
+      "files": 38,
+      "bytes": 1411424,
+      "gzipBytes": 1412630
+    },
+    "html": {
+      "files": 15,
+      "bytes": 241243,
+      "gzipBytes": 52672
+    }
+  }
+}

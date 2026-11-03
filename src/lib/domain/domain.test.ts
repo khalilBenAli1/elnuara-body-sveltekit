@@ -110,6 +110,22 @@ describe('honest routine suggestions and atomic reduced routines', () => {
       )
     ).toBe(true);
   });
+  it('describes an edited oil without claiming an unfragranced balm fallback', () => {
+    const prefs = {
+      ...defaultPreferences(),
+      fragrance: 'unfragranced' as const
+    };
+    const explanation = explain(
+      { slot: 'body', productId: 'amber-current', variantId: '100' },
+      prefs
+    );
+    expect(explanation).toContain('A fragrance alternative: woods.');
+    expect(explanation).toContain('oil, rather than light');
+    expect(explanation).not.toContain('balm');
+    expect(explanation).not.toContain(
+      'closest available unfragranced alternative'
+    );
+  });
   it('allows any valid nonempty reduced ritual with correct prices', () => {
     const one = [recommend(defaultPreferences())[0]];
     const result = addRoutine([], one);
@@ -194,4 +210,23 @@ describe('versioned field validation and own-key isolation', () => {
       }).status
     ).toBe('blocked');
   });
+});
+it('rejects field mutations throughout an otherwise valid persisted record', () => {
+  const valid = initialState();
+  const choice = valid.routine[0];
+  const cases = [
+    { ...valid, bag: null },
+    { ...valid, routine: [...valid.routine, choice] },
+    { ...valid, routine: [{ ...choice, slot: 'polish' }] },
+    {
+      ...valid,
+      routine: [{ ...choice, productId: 'stone-grain', variantId: '350' }]
+    },
+    { ...valid, preferences: { ...valid.preferences, daypart: 'midnight' } },
+    { ...valid, preferences: { ...valid.preferences, texture: 'grain' } },
+    { ...valid, preferences: { ...valid.preferences, extra: 'field' } },
+    { ...valid, contact: { email: 'do-not-store@example.com' } }
+  ];
+  for (const mutated of cases)
+    expect(() => parseState(JSON.stringify(mutated))).toThrow();
 });

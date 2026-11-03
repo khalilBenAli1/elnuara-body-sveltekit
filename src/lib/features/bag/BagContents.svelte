@@ -49,8 +49,7 @@
               aria-label={`Decrease ${found.product.name}, ${found.variant.size}`}
               onclick={() => shop.quantity(lineKey(line), line.quantity - 1)}
               ><Icon name="minus" /></button
-            ><span aria-label="Quantity" data-critical>{line.quantity}</span
-            ><button
+            ><span data-critical>{line.quantity}</span><button
               aria-label={`Increase ${found.product.name}, ${found.variant.size}`}
               disabled={line.quantity >= found.variant.stock}
               onclick={() => shop.quantity(lineKey(line), line.quantity + 1)}

@@ -75,7 +75,7 @@ export function explain(choice: RoutineChoice, prefs: Preferences): string {
   const parts = [
     p.dayparts.includes(prefs.daypart)
       ? `Fits your ${prefs.daypart} timing.`
-      : `An alternative timing: this fixture is tagged for ${p.dayparts.join(' and ')}.`
+      : `An alternative timing: ${p.dayparts.join(' and ')} in this collection.`
   ];
   parts.push(
     fragrance
@@ -87,7 +87,12 @@ export function explain(choice: RoutineChoice, prefs: Preferences): string {
   if (choice.slot === 'body') {
     if (p.texture.toLowerCase() === prefs.texture)
       parts.push(`A ${prefs.texture} texture, as requested.`);
-    else if (prefs.fragrance === 'unfragranced' && prefs.texture === 'light')
+    else if (
+      prefs.fragrance === 'unfragranced' &&
+      prefs.texture === 'light' &&
+      p.scent === 'Unfragranced' &&
+      p.texture === 'Rich'
+    )
       parts.push(
         'There is no exact unfragranced light body option in this collection. This richer balm is the closest available unfragranced alternative.'
       );

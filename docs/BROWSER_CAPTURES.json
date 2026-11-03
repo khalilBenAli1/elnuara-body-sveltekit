@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-03",
+  "url": "http://127.0.0.1:4206/elnuara-body-sveltekit/",
+  "captures": [
+    {
+      "file": "docs/screenshots/home-desktop.webp",
+      "width": 1440,
+      "bytes": 233742
+    },
+    {
+      "file": "docs/screenshots/product-desktop.webp",
+      "width": 1440,
+      "bytes": 95506
+    },
+    {
+      "file": "docs/screenshots/routine-desktop.webp",
+      "width": 1440,
+      "bytes": 75196
+    },
+    {
+      "file": "docs/screenshots/bag-desktop.webp",
+      "width": 1440,
+      "bytes": 33436
+    },
+    {
+      "file": "docs/screenshots/checkout-desktop.webp",
+      "width": 1440,
+      "bytes": 42640
+    },
+    {
+      "file": "docs/screenshots/home-mobile.webp",
+      "width": 390,
+      "bytes": 116522
+    },
+    {
+      "file": "docs/screenshots/product-mobile.webp",
+      "width": 390,
+      "bytes": 56394
+    },
+    {
+      "file": "docs/screenshots/routine-mobile.webp",
+      "width": 390,
+      "bytes": 57128
+    },
+    {
+      "file": "docs/screenshots/bag-mobile.webp",
+      "width": 390,
+      "bytes": 24828
+    },
+    {
+      "file": "docs/screenshots/checkout-mobile.webp",
+      "width": 390,
+      "bytes": 33740
+    }
+  ],
+  "browserIssues": [],
+  "failedAssets": [],
+  "bagTextMeasurements": [
+    {
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "exact": true
+    },
+    {
+      "width": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "exact": true
+    },
+    {
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "exact": true
+    }
+  ],
+  "routineCaptureNote": "Transient refresh notice dismissed through its actual UI close button before the final documentation capture; no app source changed."
+}

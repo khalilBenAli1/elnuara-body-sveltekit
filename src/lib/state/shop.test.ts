@@ -46,3 +46,23 @@ it('keeps a corrupt record untouched during temporary browsing edits', () => {
   expect(shop.storageStatus).toBe('corrupt');
   expect(data.get(STORAGE_KEY)).toBe('{bad');
 });
+it('keeps changes in memory when writes are blocked without losing another key', () => {
+  const data = new Map([['other-demo.sentinel', 'keep']]);
+  const storage: StoragePort = {
+    getItem: (k) => data.get(k) ?? null,
+    setItem: () => {
+      throw Error('quota');
+    },
+    removeItem: (k) => {
+      data.delete(k);
+    }
+  };
+  const shop = new Shop();
+  shop.hydrate(storage);
+  expect(shop.add('soft-palm', '50', 1)).toBe(true);
+  expect(shop.storageStatus).toBe('blocked');
+  expect(shop.bag).toHaveLength(1);
+  shop.reset();
+  expect(data.get('other-demo.sentinel')).toBe('keep');
+  expect(shop.bag).toHaveLength(0);
+});

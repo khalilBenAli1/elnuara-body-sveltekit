@@ -1,0 +1,29 @@
+{
+  "iteration": 4,
+  "score": 95,
+  "threshold": 90,
+  "threshold_pass": true,
+  "verdict": "pass",
+  "category_match": true,
+  "differences": [],
+  "suggestions": [],
+  "reasoning": "Root reviewed actual1440/390 home and final product/ritual/bag/checkout captures: the sage sculptural aperture, Fraunces/Plus Jakarta Sans pairing and amber/sage imagery remain distinct and coherent. Selected500ml photography/€38 and€70 complimentary-delivery totals are accurate; fallback copy is truthful. The exact doubled-text and contrast findings are resolved without clipping or scale reduction.",
+  "next_actions": [
+    "Passing feature PR and normal merge",
+    "Passing main quality/deploy",
+    "Actual public shop/ritual/checkout/direct-route proof and production home capture"
+  ],
+  "reference": "Original Elnuara art direction plus actual Root review, not an embedded reference mockup",
+  "screenshots": [
+    "docs/screenshots/home-desktop.webp",
+    "docs/screenshots/home-mobile.webp",
+    "docs/screenshots/product-desktop.webp",
+    "docs/screenshots/product-mobile.webp",
+    "docs/screenshots/routine-desktop.webp",
+    "docs/screenshots/routine-mobile.webp",
+    "docs/screenshots/bag-desktop.webp",
+    "docs/screenshots/bag-mobile.webp",
+    "docs/screenshots/checkout-desktop.webp",
+    "docs/screenshots/checkout-mobile.webp"
+  ]
+}
