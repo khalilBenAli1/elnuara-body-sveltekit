@@ -1,10 +1,11 @@
 <script lang="ts">
+  import ProductDetail from '#lib/features/product/ProductDetail.svelte';
   let { data } = $props();
 </script>
 
-<svelte:head><title>{data.product.name} · Elnuara</title></svelte:head>
-<section class="empty-page">
-  <p class="eyebrow">{data.product.category}</p>
-  <h1>{data.product.name}</h1>
-  <p>{data.product.story}</p>
-</section>
+<svelte:head
+  ><title>{data.product.name} · Elnuara</title><meta
+    name="description"
+    content={data.product.story}
+  /></svelte:head
+>{#key data.product.id}<ProductDetail product={data.product} />{/key}

@@ -22,7 +22,7 @@
     >
   </div>
   <h1 id="hero-title" data-critical>
-    Come back to<br /><em>the everyday.</em>
+    Come back to<br /><em>your rhythm.</em>
   </h1>
   <div class="stage-aperture">
     <Photo
@@ -49,7 +49,7 @@
 </section>
 <section class="intro-section">
   <span class="eyebrow">CARE, IN YOUR OWN TIME</span>
-  <h2 data-critical>Not another thing to do.<br />A moment to come back to.</h2>
+  <h2 data-critical>Small gestures.<br />A moment to yourself.</h2>
   <p>
     From the first turn of the tap to the last quiet minutes of the day.
     Considered textures, familiar notes, and objects that make the small things

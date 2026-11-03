@@ -1,5 +1,10 @@
-<svelte:head><title>Your everyday ritual. · Elnuara</title></svelte:head>
-<section class="empty-page">
-  <p class="eyebrow">ELNUARA</p>
-  <h1>Your everyday ritual.</h1>
-</section>
+<script lang="ts">
+  import RoutineBuilder from '#lib/features/routine/RoutineBuilder.svelte';
+</script>
+
+<svelte:head
+  ><title>Your ritual · Elnuara</title><meta
+    name="description"
+    content="Create an editable body-care ritual from your preferred time, texture and scent. Original fictional product-preference demonstration."
+  /></svelte:head
+><RoutineBuilder />

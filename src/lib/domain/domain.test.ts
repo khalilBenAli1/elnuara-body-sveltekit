@@ -110,6 +110,22 @@ describe('honest routine suggestions and atomic reduced routines', () => {
       )
     ).toBe(true);
   });
+  it('describes an edited oil without claiming an unfragranced balm fallback', () => {
+    const prefs = {
+      ...defaultPreferences(),
+      fragrance: 'unfragranced' as const
+    };
+    const explanation = explain(
+      { slot: 'body', productId: 'amber-current', variantId: '100' },
+      prefs
+    );
+    expect(explanation).toContain('A fragrance alternative: woods.');
+    expect(explanation).toContain('oil, rather than light');
+    expect(explanation).not.toContain('balm');
+    expect(explanation).not.toContain(
+      'closest available unfragranced alternative'
+    );
+  });
   it('allows any valid nonempty reduced ritual with correct prices', () => {
     const one = [recommend(defaultPreferences())[0]];
     const result = addRoutine([], one);
