@@ -5,7 +5,8 @@
     {
       "file": "docs/screenshots/home-desktop.webp",
       "width": 1440,
-      "bytes": 233742
+      "bytes": 233742,
+      "sourceURL": "https://khalilbenali1.github.io/elnuara-body-sveltekit/"
     },
     {
       "file": "docs/screenshots/product-desktop.webp",
@@ -30,7 +31,8 @@
     {
       "file": "docs/screenshots/home-mobile.webp",
       "width": 390,
-      "bytes": 116522
+      "bytes": 115770,
+      "sourceURL": "https://khalilbenali1.github.io/elnuara-body-sveltekit/"
     },
     {
       "file": "docs/screenshots/product-mobile.webp",

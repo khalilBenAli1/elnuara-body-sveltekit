@@ -6,7 +6,7 @@ An original fictional body-care shop and ritual builder, created in **November 2
 
 ![Elnuara’s original sage product stage](docs/screenshots/home-desktop.webp)
 
-**[Source](https://github.com/khalilBenAli1/elnuara-body-sveltekit)** · Public Pages verification is recorded in [delivery evidence](docs/DELIVERY.md) after release.
+**[Verified live demo](https://khalilbenali1.github.io/elnuara-body-sveltekit/)** · **[Source](https://github.com/khalilBenAli1/elnuara-body-sveltekit)** · [Public release evidence](docs/PUBLIC_VERIFICATION.json)
 
 ## An everyday ritual, your way
 

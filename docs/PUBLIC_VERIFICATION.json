@@ -1,0 +1,352 @@
+{
+  "verified": "2026-11-03",
+  "url": "https://khalilbenali1.github.io/elnuara-body-sveltekit/",
+  "implementationSha": "25d2c87f151274dab5128c6fe065b8d56cea760f",
+  "releaseCI": "https://github.com/khalilBenAli1/elnuara-body-sveltekit/actions/runs/41630527066",
+  "publicCore": {
+    "cases": 12,
+    "passed": 12,
+    "engines": ["Chromium", "WebKit"],
+    "seconds": 15.6,
+    "includes": [
+      "cold/query routes",
+      "all8products and16sizes",
+      "rapid URL composition",
+      "nonempty reduced ritual and honest fallback",
+      "native touch",
+      "details-review-detached-confirmation"
+    ],
+    "browserWarningsAndErrors": 0
+  },
+  "routes": [
+    {
+      "path": "",
+      "status": 200,
+      "title": "Elnuara — small rituals, fully felt"
+    },
+    {
+      "path": "collection/",
+      "status": 200,
+      "title": "Body &amp; hands · Elnuara"
+    },
+    {
+      "path": "routine/",
+      "status": 200,
+      "title": "Your ritual · Elnuara"
+    },
+    {
+      "path": "materials/",
+      "status": 200,
+      "title": "Notes &amp; materials · Elnuara"
+    },
+    {
+      "path": "bag/",
+      "status": 200,
+      "title": "Your bag · Elnuara"
+    },
+    {
+      "path": "checkout/",
+      "status": 200,
+      "title": "A little closer · Elnuara"
+    },
+    {
+      "path": "products/citrus-veil/",
+      "status": 200,
+      "title": "Citrus Veil Wash · Elnuara"
+    },
+    {
+      "path": "products/still-water/",
+      "status": 200,
+      "title": "Still Water Wash · Elnuara"
+    },
+    {
+      "path": "products/leaf-milk/",
+      "status": 200,
+      "title": "Leaf Milk Lotion · Elnuara"
+    },
+    {
+      "path": "products/quiet-dune/",
+      "status": 200,
+      "title": "Quiet Dune Balm · Elnuara"
+    },
+    {
+      "path": "products/amber-current/",
+      "status": 200,
+      "title": "Amber Current Oil · Elnuara"
+    },
+    {
+      "path": "products/stone-grain/",
+      "status": 200,
+      "title": "Stone Grain Polish · Elnuara"
+    },
+    {
+      "path": "products/palm-leaf/",
+      "status": 200,
+      "title": "Palm Leaf Hand Wash · Elnuara"
+    },
+    {
+      "path": "products/soft-palm/",
+      "status": 200,
+      "title": "Soft Palm Hand Cream · Elnuara"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/citrus-veil-250.webp",
+      "status": 200,
+      "bytes": 43520,
+      "sha256": "f6b3d598c1cf84c473232836ae95967f361a575437c3c132cc534e8b33279ab4"
+    },
+    {
+      "path": "images/citrus-veil-250-640.webp",
+      "status": 200,
+      "bytes": 14558,
+      "sha256": "3435ea72d6eb256f8db6469e475d5ee6787acdbd163ce923a476124036d6a994"
+    },
+    {
+      "path": "images/leaf-milk-200.webp",
+      "status": 200,
+      "bytes": 27836,
+      "sha256": "48ee870a9d83b7bc43303956ea10eaa1427243432e68861cbb43ef9251c907ad"
+    },
+    {
+      "path": "images/leaf-milk-200-640.webp",
+      "status": 200,
+      "bytes": 9420,
+      "sha256": "a6fa371ca9a4f01937d0cfcce137440334939ca1f9cf91c90d5617cd411b3c37"
+    },
+    {
+      "path": "images/amber-current-100.webp",
+      "status": 200,
+      "bytes": 49218,
+      "sha256": "0c96c6a0ffd9ede8faf9282f30743b9f230bf9bcf12ab2b819a6937a552f663d"
+    },
+    {
+      "path": "images/amber-current-100-640.webp",
+      "status": 200,
+      "bytes": 17344,
+      "sha256": "d0cc4d5d55d5951802a2d1dd70722d15fd0b5c2883aef917743bbb5f0c6ad685"
+    },
+    {
+      "path": "images/ritual-still-life.webp",
+      "status": 200,
+      "bytes": 58322,
+      "sha256": "68ba75415e70aa9cc269ab5af3c52e92bb958a12d9699aa813bd6495b04e7a41"
+    },
+    {
+      "path": "images/ritual-still-life-640.webp",
+      "status": 200,
+      "bytes": 20084,
+      "sha256": "f081f058cb8bf483e01dfbcb5adc058ec32623de85207afa276c65bf8b1e7c72"
+    },
+    {
+      "path": "images/botanical-textures.webp",
+      "status": 200,
+      "bytes": 160170,
+      "sha256": "846b3778bf0397f1317a66dab6a55029b4112f76041f2b275a79c4904d27cae5"
+    },
+    {
+      "path": "images/botanical-textures-640.webp",
+      "status": 200,
+      "bytes": 56158,
+      "sha256": "c4db7f949f94d10f5db47f8f7b70a5ce3bf4ebcaa50820a9a6a8cf8f40c6d4b7"
+    },
+    {
+      "path": "images/amber-light.webp",
+      "status": 200,
+      "bytes": 125900,
+      "sha256": "2181b1d23d85bba69c55f0ebed22ae53d3e711353adcfce2de35ed81129c9825"
+    },
+    {
+      "path": "images/amber-light-640.webp",
+      "status": 200,
+      "bytes": 49808,
+      "sha256": "5056aabe94a0048f23578d44a0a8b0d3ec70ca6c016bc99d9002da90014c9fa8"
+    },
+    {
+      "path": "images/still-water-250.webp",
+      "status": 200,
+      "bytes": 17998,
+      "sha256": "44a16f17608241025ec8160e27e165e31ce99ba4685c0936925caf29a5cbf646"
+    },
+    {
+      "path": "images/still-water-250-640.webp",
+      "status": 200,
+      "bytes": 6198,
+      "sha256": "5c33da2ae7bc016ccca83eef2280ceb031bcf5ab4648149363bca7c7549a2d6f"
+    },
+    {
+      "path": "images/citrus-veil-500.webp",
+      "status": 200,
+      "bytes": 42346,
+      "sha256": "50aeafed3145d84d8242e1eec37828cc62ae1907087b1ba10979f5d4d387a6a6"
+    },
+    {
+      "path": "images/citrus-veil-500-640.webp",
+      "status": 200,
+      "bytes": 14384,
+      "sha256": "20be0c8977e09d9ef7c5821d2bf8217c5ec67db3df75f1c552417dc7e7f3e92a"
+    },
+    {
+      "path": "images/leaf-milk-400.webp",
+      "status": 200,
+      "bytes": 27144,
+      "sha256": "b757af22f89d75a7eb003dde324795854971051390f631cff6e68b591a3639bd"
+    },
+    {
+      "path": "images/leaf-milk-400-640.webp",
+      "status": 200,
+      "bytes": 8264,
+      "sha256": "89c0d872217c9e0358eee7efe5ab922ba29347d79099beb4e0a2b476c2e10d8c"
+    },
+    {
+      "path": "images/amber-current-200.webp",
+      "status": 200,
+      "bytes": 46330,
+      "sha256": "1f834342e204ef02710a98a8881f7bd8603a37d91e751721a89cacbbca515dba"
+    },
+    {
+      "path": "images/amber-current-200-640.webp",
+      "status": 200,
+      "bytes": 16128,
+      "sha256": "0e3e9c42106b5ab79495d69b5e1b1dfcc35ba2400a775457d421fdd6fd0d8e08"
+    },
+    {
+      "path": "images/still-water-500.webp",
+      "status": 200,
+      "bytes": 17780,
+      "sha256": "8074451e0c01e55f61448665a54a483087653c63bee6d7153a803a9e2cdc51df"
+    },
+    {
+      "path": "images/still-water-500-640.webp",
+      "status": 200,
+      "bytes": 5940,
+      "sha256": "1629095a67dc98ba6d79a3b9b789c3a83aa53cbeca6704f5a08537f1a93154c6"
+    },
+    {
+      "path": "images/quiet-dune-150.webp",
+      "status": 200,
+      "bytes": 48350,
+      "sha256": "23adf7a3fd8621a238e3927e4d41a13bcc09a903349faf72f3530a1d6d59210d"
+    },
+    {
+      "path": "images/quiet-dune-150-640.webp",
+      "status": 200,
+      "bytes": 14522,
+      "sha256": "16a31ce0051f1c9e09d93f31d9f11144a59afd6d23848b562a1509ada1de34b0"
+    },
+    {
+      "path": "images/stone-grain-200.webp",
+      "status": 200,
+      "bytes": 65092,
+      "sha256": "792501b14fcbba63914bc3629549c327e253c7e03789dee6a49770c69af16e1b"
+    },
+    {
+      "path": "images/stone-grain-200-640.webp",
+      "status": 200,
+      "bytes": 19772,
+      "sha256": "c906317b8533c754421e7501008b955abc3bbf228b40b6a5d3adaa1f4cdf4a50"
+    },
+    {
+      "path": "images/palm-leaf-300.webp",
+      "status": 200,
+      "bytes": 66282,
+      "sha256": "df8748bde96763acd8faac8a62f266d68cc40481339ec2cc796b45871ad9e4ba"
+    },
+    {
+      "path": "images/palm-leaf-300-640.webp",
+      "status": 200,
+      "bytes": 22282,
+      "sha256": "6cab4d8299b18382c6cba607ec703bce62d37d63bb0ccf851b38628ed4260239"
+    },
+    {
+      "path": "images/soft-palm-50.webp",
+      "status": 200,
+      "bytes": 32550,
+      "sha256": "58684dfedda55c9df8ccf5333cf758dec6613186f6f786d43eaea400bc25ab7a"
+    },
+    {
+      "path": "images/soft-palm-50-640.webp",
+      "status": 200,
+      "bytes": 10250,
+      "sha256": "d32f956b40f4ee31d5a9b88a9466b3c608ee651322dec249fcd056658b89f9bb"
+    },
+    {
+      "path": "images/quiet-dune-300.webp",
+      "status": 200,
+      "bytes": 52656,
+      "sha256": "7340f6d66d3f538cc72415acb5c180a07d446a92e3fd2be3dbafd37dbefe34ef"
+    },
+    {
+      "path": "images/quiet-dune-300-640.webp",
+      "status": 200,
+      "bytes": 14970,
+      "sha256": "5cf412dcc0030c94dd91273e2a86d20480d59a38bc2ef4486a628484691bb09b"
+    },
+    {
+      "path": "images/stone-grain-350.webp",
+      "status": 200,
+      "bytes": 71818,
+      "sha256": "349c40015842b2843096687a4baa7e4b9084a85e56e1d32db677ed64c92bdc06"
+    },
+    {
+      "path": "images/stone-grain-350-640.webp",
+      "status": 200,
+      "bytes": 21764,
+      "sha256": "4ddcc5cba922e564a8d1e8964d5444616dafd89a0f737f6ae1341a5b11ce96ce"
+    },
+    {
+      "path": "images/palm-leaf-500.webp",
+      "status": 200,
+      "bytes": 70796,
+      "sha256": "75470725420b4dd911049547ef3a87b0e1df602380ea969b5dc8cfe97fb24d6e"
+    },
+    {
+      "path": "images/palm-leaf-500-640.webp",
+      "status": 200,
+      "bytes": 22970,
+      "sha256": "2c36c945cc5a85ad73f1f626d2510f8b0224724b5f2a82d96441abf7ae69e3a6"
+    },
+    {
+      "path": "images/soft-palm-100.webp",
+      "status": 200,
+      "bytes": 32782,
+      "sha256": "a8da242bd6ed821dd5c4a86c7e9f7d1dcbce48ad467029781cb84dc1eca6a051"
+    },
+    {
+      "path": "images/soft-palm-100-640.webp",
+      "status": 200,
+      "bytes": 9718,
+      "sha256": "65281510e1cd41c8ddbba6a48a20d99f10352fc12675341f9df63447ee870206"
+    }
+  ],
+  "fontFaces": [
+    {
+      "family": "Fraunces",
+      "status": "loaded",
+      "weight": "100 900"
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "status": "loaded",
+      "weight": "200 800"
+    }
+  ],
+  "captures": [
+    {
+      "file": "docs/screenshots/home-desktop.webp",
+      "width": 1440,
+      "bytes": 233742,
+      "sourceURL": "https://khalilbenali1.github.io/elnuara-body-sveltekit/"
+    },
+    {
+      "file": "docs/screenshots/home-mobile.webp",
+      "width": 390,
+      "bytes": 115770,
+      "sourceURL": "https://khalilbenali1.github.io/elnuara-body-sveltekit/"
+    }
+  ],
+  "unknownStatus": 404,
+  "browserIssues": [],
+  "failedAssets": []
+}

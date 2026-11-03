@@ -1,6 +1,16 @@
 # Delivery and verification
 
-Original Elnuara portfolio application, November3,2026. The local source is complete and the finite gate below has passed. Public release details will be recorded after passing feature-PR and main-branch checks and actual Pages verification; an intended address is not presented here as a verified live result.
+Original Elnuara portfolio application, publicly released and verified November3,2026. The local and remote finite gates passed before the public proof below.
+
+## Verified public release
+
+- **[Live demo](https://khalilbenali1.github.io/elnuara-body-sveltekit/)** and [public source](https://github.com/khalilBenAli1/elnuara-body-sveltekit).
+- [Feature PR1](https://github.com/khalilBenAli1/elnuara-body-sveltekit/pull/1) was merged normally only after both corrected checks passed, preserving foundation, storefront and hardening history.
+- Implementation merge: `25d2c87f151274dab5128c6fe065b8d56cea760f`.
+- [Main quality and Pages deployment](https://github.com/khalilBenAli1/elnuara-body-sveltekit/actions/runs/41630527066): both successful before public testing.
+- Actual public core suite: **12/12 cases passed in15.6seconds** across Chromium and WebKit, including all eight direct product routes/sixteen sizes, cold query hydration, rapid filters, native touch, honest edited reduced ritual addition and complete details/review/detached local confirmation. All warning/error guards remained empty.
+- All **14 public routes returned200**; all **38 WebP assets returned200 and matched their exact committed SHA-256 hashes**. Both exclusive font faces reported loaded. Unknown route returned the deliberate404. No unexpected failed assets or browser issues occurred.
+- `home-desktop.webp` and `home-mobile.webp` are actual **public**1440/390 captures, replacing their local counterparts for the final handoff. Machine-readable proof is in [PUBLIC_VERIFICATION.json](PUBLIC_VERIFICATION.json); per-capture source URLs are retained in [BROWSER_CAPTURES.json](BROWSER_CAPTURES.json).
 
 ## Finite quality gate
 
