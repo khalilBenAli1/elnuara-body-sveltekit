@@ -106,39 +106,52 @@ export async function expectNoCriticalClip(page: Page) {
         element.closest('.visually-hidden')
       )
         continue;
-      const range = document.createRange();
-      range.selectNodeContents(element);
-      const rect = range.getBoundingClientRect();
-      if (rect.width && (rect.left < -1 || rect.right > width + 1))
-        results.push({
-          text: element.textContent.trim().slice(0, 90),
-          reason: `text range ${rect.left}..${rect.right}, viewport ${width}`
-        });
+      const text = element.textContent.trim().slice(0, 90);
       if (
         element.clientWidth > 0 &&
         element.scrollWidth > element.clientWidth + 1
       )
         results.push({
-          text: element.textContent.trim().slice(0, 90),
+          text,
           reason: `scroll ${element.scrollWidth}, client ${element.clientWidth}`
         });
-      let parent = element.parentElement;
-      while (parent && parent !== document.body) {
-        const style = getComputedStyle(parent);
-        if (style.overflowX === 'hidden' || style.overflowX === 'clip') {
-          const bounds = parent.getBoundingClientRect();
-          if (
-            rect.width &&
-            (rect.left < bounds.left - 1 || rect.right > bounds.right + 1)
-          ) {
+      const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+      let node: Node | null;
+      while ((node = walker.nextNode())) {
+        const parent = node.parentElement;
+        // Hidden accessibility labels and native input/select internals are not rendered text.
+        if (
+          !node.textContent?.trim() ||
+          !parent?.getClientRects().length ||
+          parent.closest('.visually-hidden,select,option,input,textarea') ||
+          getComputedStyle(parent).visibility === 'hidden'
+        )
+          continue;
+        const range = document.createRange();
+        range.selectNodeContents(node);
+        for (const rect of range.getClientRects()) {
+          if (!rect.width) continue;
+          if (rect.left < -1 || rect.right > width + 1)
             results.push({
-              text: element.textContent.trim().slice(0, 90),
-              reason: 'clipped by overflow ancestor'
+              text,
+              reason: `text range ${rect.left}..${rect.right}, viewport ${width}`
             });
-            break;
+          let ancestor = parent.parentElement;
+          while (ancestor && ancestor !== document.body) {
+            const style = getComputedStyle(ancestor);
+            if (style.overflowX === 'hidden' || style.overflowX === 'clip') {
+              const bounds = ancestor.getBoundingClientRect();
+              if (
+                rect.left < bounds.left - 1 ||
+                rect.right > bounds.right + 1
+              ) {
+                results.push({ text, reason: 'clipped by overflow ancestor' });
+                break;
+              }
+            }
+            ancestor = ancestor.parentElement;
           }
         }
-        parent = parent.parentElement;
       }
     }
     return results;

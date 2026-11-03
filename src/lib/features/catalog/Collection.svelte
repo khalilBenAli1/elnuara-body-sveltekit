@@ -21,14 +21,14 @@
   let active = true;
   let navigation = Promise.resolve();
   onMount(() => {
-    filters = readFilters(page.url.searchParams);
+    filters = readFilters((page.shallow?.url ?? page.url).searchParams);
     mounted = true;
   });
   onDestroy(() => {
     active = false;
   });
   $effect(() => {
-    const query = page.url.search;
+    const query = (page.shallow?.url ?? page.url).search;
     if (mounted && pending === 0)
       filters = readFilters(new URLSearchParams(query));
   });

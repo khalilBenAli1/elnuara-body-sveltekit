@@ -211,3 +211,22 @@ describe('versioned field validation and own-key isolation', () => {
     ).toBe('blocked');
   });
 });
+it('rejects field mutations throughout an otherwise valid persisted record', () => {
+  const valid = initialState();
+  const choice = valid.routine[0];
+  const cases = [
+    { ...valid, bag: null },
+    { ...valid, routine: [...valid.routine, choice] },
+    { ...valid, routine: [{ ...choice, slot: 'polish' }] },
+    {
+      ...valid,
+      routine: [{ ...choice, productId: 'stone-grain', variantId: '350' }]
+    },
+    { ...valid, preferences: { ...valid.preferences, daypart: 'midnight' } },
+    { ...valid, preferences: { ...valid.preferences, texture: 'grain' } },
+    { ...valid, preferences: { ...valid.preferences, extra: 'field' } },
+    { ...valid, contact: { email: 'do-not-store@example.com' } }
+  ];
+  for (const mutated of cases)
+    expect(() => parseState(JSON.stringify(mutated))).toThrow();
+});

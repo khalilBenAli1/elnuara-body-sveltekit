@@ -67,3 +67,5 @@ The draft contains name, email, address, city, postal code and destination. Vali
 The supported static adapter produces files for the repository base `/elnuara-body-sveltekit`. Product routes are generated from finite fixtures, so direct links do not require a runtime commerce service. Images and licensed Fraunces/Plus Jakarta Sans fonts are self-hosted. Product images belong to their exact sizes, and campaign objects reference those canonical packages.
 
 The README and delivery evidence record the final verification commands, actual captures, measured payloads and limits. Domain/store tests protect transitions and isolation; browser journeys check the rendered experience, including hydration, touch, keyboard focus, reduced motion and narrow/increased text. No performance or accessibility certification is implied by these checks.
+
+SvelteKit3 shallow navigation exposes its current address through `page.shallow.url`; the collection synchronizes from that URL (falling back to `page.url` for a cold/full route). Reading only `page.url` after shallow navigation would otherwise restore the old filter state.
