@@ -1,0 +1,10 @@
+node_modules
+.svelte-kit
+build
+test-results
+playwright-report
+package-lock.json
+.omx
+static/images
+docs/IMAGE_PROVENANCE.md
+docs/image-prompts.json

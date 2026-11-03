@@ -1,0 +1,1 @@
+Elnuara is additional project9. Account, unused remote name and local directory were checked before creation. Root owns overall portfolio/progress. App owner owns all code/Git/fonts/docs except separately assigned media paths. Begin only after eight published projects and their EN/FR/IT portfolio integration were verified complete.

@@ -1,0 +1,877 @@
+{
+  "schemaVersion": 1,
+  "brand": "Elnuara",
+  "created": "2026-11-03",
+  "fictional": true,
+  "tool": "Built-in image_gen.imagegen; no CLI, API key or external stock",
+  "policy": "Original generated fictional packaging. WebP conversion/resizing only with Sharp. No prior portfolio-brand asset reuse. No clinical/ingredient efficacy claims.",
+  "status": "complete",
+  "records": [
+    {
+      "id": "citrus-veil-250",
+      "productId": "citrus-veil",
+      "variantId": "250",
+      "kind": "product",
+      "shape": "square",
+      "prompt": "Use case: product-mockup\nAsset type: square product catalogue photograph for original fictional Elnuara body care.\nPrimary request: one canonical 250 ml body-wash vessel: tall cylindrical amber-glass bottle with softly rounded shoulders, a matte charcoal pump and a restrained thin plain cream band around the lower-middle body. The pump must have a short clean dispensing spout. Bottle body is distinctly taller than wide, not a squat hand-wash form.\nScene/backdrop: warm cream seamless studio surface and backdrop, subtle real stone texture beneath bottle, no props.\nStyle/medium: photorealistic premium editorial product photography with tactile glass and soft natural detail.\nComposition/framing: square image, exactly one complete closed bottle upright centered, three-quarter view slightly above its midline, generous uniform margins, vessel and pump occupy about70% image height; soft grounded shadow.\nLighting/mood: diffused window light from upper left, warm quiet morning.\nPalette/materials: amber translucent glass, charcoal pump, thin cream band, warm ivory background.\nConstraints: original sculptural packaging, no famous packaging clone, no text, lettering, numbers, printed size, labels with writing, logos, certification marks, watermark, people, extra vessels, embedded interface. Opaque photographic background. This is the SMALL250ml canonical member; create plausible compact proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-d613b0e4-d088-467c-8889-e61480303572.png",
+      "references": [],
+      "inspection": "Inspected source: tall cylindrical amber bottle, charcoal pump/spout, thin blank cream band, no text/marks; correct small canonical vessel.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-d613b0e4-d088-467c-8889-e61480303572.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1824103,
+        "sha256": "8a5ca3ec770544481b5391c63e57b284f0924d05c18bbaa5bd2f244aa41a62d5",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/citrus-veil-250.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 43520,
+          "sha256": "f6b3d598c1cf84c473232836ae95967f361a575437c3c132cc534e8b33279ab4",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/citrus-veil-250-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 14558,
+          "sha256": "3435ea72d6eb256f8db6469e475d5ee6787acdbd163ce923a476124036d6a994",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "leaf-milk-200",
+      "productId": "leaf-milk",
+      "variantId": "200",
+      "kind": "product",
+      "shape": "square",
+      "prompt": "Use case: product-mockup\nAsset type: square catalogue photograph for original fictional Elnuara body care.\nPrimary request: exactly one SMALL200ml lotion bottle, matte muted-sage flattened oval body with softly rounded shoulders and a broad curved front. Slender brushed-aluminium pump with short precise dispensing spout and plain cream neck collar. Organically oval and broad-fronted, visibly different from cylindrical amber wash or squared cream wash.\nScene/backdrop: warm cream seamless studio surface/background, subtly textured pale stone beneath vessel, no props.\nStyle: photorealistic premium editorial product photography, real matte coating and brushed metal.\nComposition: square, complete upright bottle centered, three-quarter view slightly above midline showing oval depth, generous margins, bottle and pump occupy70% image height, soft grounded shadow.\nLighting: diffused warm window light upper-left.\nConstraints: original sculptural packaging, no famous packaging clone, text, letters, numbers, printed size, label, logo, certifications, watermark, people, extra vessels or interface. Opaque background. Plausible compact200ml proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-0c1b8621-4409-4203-9caf-b6a9015633a7.png",
+      "references": [],
+      "inspection": "Inspected source: sage flattened oval matte bottle with brushed silver pump and cream collar; no words/marks.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-0c1b8621-4409-4203-9caf-b6a9015633a7.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1802605,
+        "sha256": "6d8ca66fb835e82bc4c5f31b44f72659af2ef03ab5a3759ebc0da15fa8ce2a05",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/leaf-milk-200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 27836,
+          "sha256": "48ee870a9d83b7bc43303956ea10eaa1427243432e68861cbb43ef9251c907ad",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/leaf-milk-200-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 9420,
+          "sha256": "a6fa371ca9a4f01937d0cfcce137440334939ca1f9cf91c90d5617cd411b3c37",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "amber-current-100",
+      "productId": "amber-current",
+      "variantId": "100",
+      "kind": "product",
+      "shape": "square",
+      "prompt": "Use case: product-mockup\nAsset type: square catalogue photograph for original fictional Elnuara body care.\nPrimary request: exactly one SMALL100ml body-oil vessel, flattened oval amber-glass flask with broad curved front, smoothly rounded low shoulders, matte charcoal dropper cap with rounded rubber top and a slender brass collar at neck. Not a cylindrical pump bottle; amber glass with subtle golden translucency.\nScene/backdrop: warm cream seamless studio surface/background, subtly textured pale stone beneath vessel, no props.\nStyle: photorealistic premium editorial product photography, natural glass reflections and precise brass.\nComposition: square, complete closed upright vessel centered, three-quarter view slightly above midline showing flattened oval depth, generous margins, vessel and cap occupy65% image height, soft grounded shadow.\nLighting: diffused warm window light upper-left.\nConstraints: original sculptural packaging, no famous packaging clone, text, letters, numbers, printed size, label, logo, certifications, watermark, people, extra vessels or interface. Opaque background. Plausible compact100ml proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a58baad0-255e-4794-adb0-1ed0412244f1.png",
+      "references": [],
+      "inspection": "Inspected source: broad flattened oval amber flask, charcoal dropper and narrow brass collar; no words/marks.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a58baad0-255e-4794-adb0-1ed0412244f1.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1827194,
+        "sha256": "06fdab968e974f1f87ecb2a9c7d635039e6e120ce5ded490e549fac8a2e0ecad",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/amber-current-100.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 49218,
+          "sha256": "0c96c6a0ffd9ede8faf9282f30743b9f230bf9bcf12ab2b819a6937a552f663d",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/amber-current-100-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 17344,
+          "sha256": "d0cc4d5d55d5951802a2d1dd70722d15fd0b5c2883aef917743bbb5f0c6ad685",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "ritual-still-life",
+      "kind": "campaign",
+      "shape": "landscape",
+      "references": [
+        {
+          "id": "citrus-veil-250",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-d613b0e4-d088-467c-8889-e61480303572.png",
+          "role": "Canonical tall amber250ml wash vessel"
+        },
+        {
+          "id": "leaf-milk-200",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-0c1b8621-4409-4203-9caf-b6a9015633a7.png",
+          "role": "Canonical sage oval200ml lotion vessel"
+        },
+        {
+          "id": "amber-current-100",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a58baad0-255e-4794-adb0-1ed0412244f1.png",
+          "role": "Canonical flattened oval100ml oil vessel"
+        }
+      ],
+      "prompt": "Use case: compositing\nAsset type: original landscape3:2 body-care campaign photograph for fictional Elnuara.\nInput images: Image1 canonical Citrus Veil250 amber cylindrical wash/charcoal pump/thin cream band; Image2 canonical Leaf Milk200 sage flattened oval lotion/aluminium pump/cream collar; Image3 canonical Amber Current100 flattened oval amber oil/charcoal dropper/brass collar. These are the exact three products to place in the scene, not general style references.\nPrimary request: arrange exactly these three complete closed vessels as a sculptural premium still-life on warm pale stone at softly varied heights with a muted sage backdrop, tactile natural linen entering at an edge, and soft botanical shadows. Preserve each reference vessel's body shape, material, colour, pump/dropper and collar geometry; preserve the small oil flask's characteristic oval profile. Plausible relative scale: wash tallest, lotion slightly shorter, oil visibly smaller. No alternate generic vessels.\nComposition: wide landscape3:2 editorial photograph, balanced asymmetrical grouping, all three products readable and uncropped, breathing room around them, not a triptych or catalogue grid.\nLighting: diffused late-morning window light, soft shadows, rich amber highlights, refined quiet warmth.\nConstraints: no words, logos, numbers, size inscriptions, certifications, branding, watermark, people, medical imagery, extra bottles or interface. Opaque photographic image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-3df17ec6-da86-45e7-9ac4-cc6e4cfcb411.png",
+      "inspection": "Inspected: three canonical reference vessels retain tall amber/charcoal/cream-band, oval sage/silver/cream and flattened amber/dropper/brass forms. All complete, grouped centrally with pale stone/sage/linen; no text or people.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-3df17ec6-da86-45e7-9ac4-cc6e4cfcb411.png",
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "bytes": 2113931,
+        "sha256": "8e42d503ccd4597a6696827a7958679066ecc0cd09941c7f61def8765204b24e",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/ritual-still-life.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 58322,
+          "sha256": "68ba75415e70aa9cc269ab5af3c52e92bb958a12d9699aa813bd6495b04e7a41",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/ritual-still-life-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 20084,
+          "sha256": "f081f058cb8bf483e01dfbcb5adc058ec32623de85207afa276c65bf8b1e7c72",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "botanical-textures",
+      "kind": "campaign",
+      "shape": "landscape",
+      "references": [],
+      "prompt": "Use case: photorealistic-natural\nAsset type: original landscape3:2 sensory editorial macro for fictional Elnuara body care.\nPrimary request: tactile close-up arrangement of a curled fresh citrus peel, a small number of velvety muted sage leaves, softly folded unbleached raw linen and a warm pale stone surface. Show delicate pores of citrus, natural leaf veins, linen threads and matte stone. These are sensory materials, not a product formula or efficacy claim.\nComposition: landscape3:2 editorial still life, sculptural diagonal folds and modest negative space, tightly curated objects and natural imperfect detail, no containers.\nLighting: warm diffused window light with soft botanical shadows, cream/sage/amber palette.\nConstraints: original photorealistic photography, no people, skin, medical objects, words, marks, logos, certifications, watermarks or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-35160515-9259-434b-8ce0-35cd7f0dc6f8.png",
+      "inspection": "Inspected: curled citrus peel, sage leaves, raw linen and pale stone macro only; sensory materials, no products/text/claims.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-35160515-9259-434b-8ce0-35cd7f0dc6f8.png",
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "bytes": 2851886,
+        "sha256": "15708fc66f62b4f6f8732f52dbea07362206c27945f9bace65d15ef3b56ac7f0",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/botanical-textures.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 160170,
+          "sha256": "846b3778bf0397f1317a66dab6a55029b4112f76041f2b275a79c4904d27cae5",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/botanical-textures-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 56158,
+          "sha256": "c4db7f949f94d10f5db47f8f7b70a5ce3bf4ebcaa50820a9a6a8cf8f40c6d4b7",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "amber-light",
+      "kind": "campaign",
+      "shape": "portrait",
+      "references": [
+        {
+          "id": "amber-current-100",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a58baad0-255e-4794-adb0-1ed0412244f1.png",
+          "role": "Exact canonical100ml oil bottle"
+        }
+      ],
+      "prompt": "Use case: compositing\nAsset type: original portrait2:3 macro campaign photograph for fictional Elnuara.\nInput image: exact canonical Amber Current100 bottle, a broad flattened oval amber-glass flask with matte charcoal rounded dropper and slender brass collar. Preserve that vessel's silhouette, proportions, material, colour and closure exactly.\nPrimary request: place this one complete closed canonical bottle nestled against softly folded cream linen, with warm transmitted amber light falling across pale stone and fabric. A sculptural close editorial study of amber glass, brass and natural fabric. The bottle remains recognizable and the entire dropper and glass body stay in frame.\nComposition: portrait2:3, generous breathing room top and bottom, one vessel only, no replacement cylindrical bottle.\nLighting: warm side-window glow, translucent amber highlights and soft shadows, realistic texture.\nConstraints: no label text, words, numbers, logos, certifications, marks, watermark, people, skin, claims, extra bottles or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-16df176c-b4ee-4766-ac49-03d34cabd50b.png",
+      "inspection": "Inspected: canonical flattened oval Amber Current100 dropper bottle retained against cream linen with amber transmitted light; complete vessel, no words/people.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-16df176c-b4ee-4766-ac49-03d34cabd50b.png",
+        "width": 1024,
+        "height": 1536,
+        "format": "png",
+        "bytes": 2161190,
+        "sha256": "6683092a81d0dd6a403450004429ee5dc4d38c3cde9894976c396c7936759948",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/amber-light.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 125900,
+          "sha256": "2181b1d23d85bba69c55f0ebed22ae53d3e711353adcfce2de35ed81129c9825",
+          "opaque": true,
+          "resize": "upscaled"
+        },
+        {
+          "file": "static/images/amber-light-640.webp",
+          "width": 640,
+          "height": 960,
+          "bytes": 49808,
+          "sha256": "5056aabe94a0048f23578d44a0a8b0d3ec70ca6c016bc99d9002da90014c9fa8",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "still-water-250",
+      "productId": "still-water",
+      "variantId": "250",
+      "kind": "product",
+      "shape": "square",
+      "references": [],
+      "prompt": "Use case: product-mockup\nAsset type: square catalogue photograph for original fictional Elnuara body care.\nPrimary request: exactly one SMALL250ml body-wash bottle, opaque warm cream softly squared body with rounded edges and shoulders, simple ivory pump with a short clean dispensing spout. Sculptural softly squared silhouette, visibly different from cylindrical amber wash and oval sage lotion. No coloured liquid visible.\nScene: cream seamless backdrop and subtle pale-stone surface, no props. Photorealistic premium editorial studio photograph.\nComposition: square, complete closed upright bottle centered in three-quarter view slightly above midline, generous margins, vessel/pump occupy70% image height, soft grounded shadow.\nLighting: diffused warm window light upper-left, natural matte material.\nConstraints: no text, letters, numbers, size inscriptions, labels, logos, certifications, watermark, people, extra vessels, familiar brand packaging or embedded interface. Opaque image, plausible compact250ml proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a728c804-5fca-4f33-aa3d-db10e97977da.png",
+      "inspection": "Inspected: opaque cream softly squared bottle, rounded shoulders and ivory pump; no liquid visible or words/marks.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a728c804-5fca-4f33-aa3d-db10e97977da.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1644691,
+        "sha256": "bccd7a93a95e1c77fc610ad3f5cc906d136f1cad035aef2b7a9a5a5128aa2d01",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/still-water-250.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 17998,
+          "sha256": "44a16f17608241025ec8160e27e165e31ce99ba4685c0936925caf29a5cbf646",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/still-water-250-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 6198,
+          "sha256": "5c33da2ae7bc016ccca83eef2280ceb031bcf5ab4648149363bca7c7549a2d6f",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "citrus-veil-500",
+      "productId": "citrus-veil",
+      "variantId": "500",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "citrus-veil-250",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-d613b0e4-d088-467c-8889-e61480303572.png",
+          "role": "Canonical smaller-size photograph; exact family geometry/material/closure reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photo for fictional Elnuara.\nInput image: inspected canonical smaller-size product photograph. This is an edit target and exact packaging-family reference.\nPrimary request: Create the LARGE500ml member of this exact250ml packaging family. Increase the cylindrical amber body about30% in diameter and15% in body height relative to the reference's unchanged pump closure. Make the body visibly broader and more capacious; retain its tall cylindrical family, soft rounded shoulders, translucent amber material and thin plain cream band at the same proportional lower-body location. The matte charcoal pump shape, spout, texture and physical closure size remain exactly the same.\nComposition/lighting invariants: one complete closed upright vessel only, same warm cream backdrop and pale stone surface, same warm soft upper-left window light and three-quarter viewing angle. Square image with generous margins; if needed pull camera back only enough to retain the whole larger vessel in frame. It must be a newly photographed-looking larger size with visibly adjusted body proportions, NOT an identical small-size photo relabelled.\nConstraints: preserve original fictional family; no words, letters, numbers, printed sizes, label, logos, certification marks, watermark, people, extra vessels or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-b7f868c2-5356-47b1-b231-666f551a2eba.png",
+      "inspection": "Inspected alongside250: same amber/charcoal/band family, visibly wider body and reduced closure-to-body ratio; complete plain vessel.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-b7f868c2-5356-47b1-b231-666f551a2eba.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1736874,
+        "sha256": "39e4e6f0c761951ea523b62c87d50d8631d2dcf89d7a51b2e3799bbe71264a95",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/citrus-veil-500.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 42346,
+          "sha256": "50aeafed3145d84d8242e1eec37828cc62ae1907087b1ba10979f5d4d387a6a6",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/citrus-veil-500-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 14384,
+          "sha256": "20be0c8977e09d9ef7c5821d2bf8217c5ec67db3df75f1c552417dc7e7f3e92a",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "leaf-milk-400",
+      "productId": "leaf-milk",
+      "variantId": "400",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "leaf-milk-200",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-0c1b8621-4409-4203-9caf-b6a9015633a7.png",
+          "role": "Canonical smaller-size photograph; exact family geometry/material/closure reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photo for fictional Elnuara.\nInput image: inspected canonical smaller-size product photograph. This is an edit target and exact packaging-family reference.\nPrimary request: Create the LARGE400ml member of this exact200ml packaging family. Make the matte sage oval body about35% taller and20% broader relative to the reference's unchanged pump closure: a noticeably more elongated capacious oval rather than the compact small-size oval. Preserve the flattened oval cross-section, soft shoulders, muted-sage matte colour, slender brushed-aluminium pump/spout and cream collar. The physical pump/collar size and design stay unchanged, so the larger body is visibly different in proportion.\nComposition/lighting invariants: one complete closed upright vessel only, same warm cream backdrop and pale stone surface, same warm soft upper-left window light and three-quarter viewing angle. Square image with generous margins; if needed pull camera back only enough to retain the whole larger vessel in frame. It must be a newly photographed-looking larger size with visibly adjusted body proportions, NOT an identical small-size photo relabelled.\nConstraints: preserve original fictional family; no words, letters, numbers, printed sizes, label, logos, certification marks, watermark, people, extra vessels or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-247acd06-fc55-4392-a0f9-3ad6a8fc7b72.png",
+      "inspection": "Inspected alongside200: sage oval family and cream/silver closure retained; body visibly more elongated/taller and closure proportion reduced.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-247acd06-fc55-4392-a0f9-3ad6a8fc7b72.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1802475,
+        "sha256": "f70c908925ece7bc3187e2c21c166e0502c43ecbc648b766dfff3eefb3b698af",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/leaf-milk-400.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 27144,
+          "sha256": "b757af22f89d75a7eb003dde324795854971051390f631cff6e68b591a3639bd",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/leaf-milk-400-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 8264,
+          "sha256": "89c0d872217c9e0358eee7efe5ab922ba29347d79099beb4e0a2b476c2e10d8c",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "amber-current-200",
+      "productId": "amber-current",
+      "variantId": "200",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "amber-current-100",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a58baad0-255e-4794-adb0-1ed0412244f1.png",
+          "role": "Canonical smaller-size photograph; exact family geometry/material/closure reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photo for fictional Elnuara.\nInput image: inspected canonical smaller-size product photograph. This is an edit target and exact packaging-family reference.\nPrimary request: Create the LARGE200ml member of this exact100ml packaging family. Increase the flattened oval amber flask body about30% taller and20% broader relative to the unchanged dropper closure. The larger body should read distinctly more capacious and a little taller in oval proportion, while preserving its broad smoothly curved front and flattened depth. Preserve exact amber glass colour, rounded shoulders, charcoal rounded dropper design and slender brass collar. Keep physical dropper/collar size unchanged.\nComposition/lighting invariants: one complete closed upright vessel only, same warm cream backdrop and pale stone surface, same warm soft upper-left window light and three-quarter viewing angle. Square image with generous margins; if needed pull camera back only enough to retain the whole larger vessel in frame. It must be a newly photographed-looking larger size with visibly adjusted body proportions, NOT an identical small-size photo relabelled.\nConstraints: preserve original fictional family; no words, letters, numbers, printed sizes, label, logos, certification marks, watermark, people, extra vessels or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-84fc4f32-6775-4b16-be7f-80076856884d.png",
+      "inspection": "Inspected alongside100: flattened amber/dropper/brass family retained; oval body visibly taller and more capacious with smaller relative closure.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-84fc4f32-6775-4b16-be7f-80076856884d.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1749512,
+        "sha256": "0c74fc8ff04fb59cd82b4f9dcb7b431aeb7242272c0542ebdead4d2430fdcdbe",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/amber-current-200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 46330,
+          "sha256": "1f834342e204ef02710a98a8881f7bd8603a37d91e751721a89cacbbca515dba",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/amber-current-200-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 16128,
+          "sha256": "0e3e9c42106b5ab79495d69b5e1b1dfcc35ba2400a775457d421fdd6fd0d8e08",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "still-water-500",
+      "productId": "still-water",
+      "variantId": "500",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "still-water-250",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-a728c804-5fca-4f33-aa3d-db10e97977da.png",
+          "role": "Canonical smaller-size photograph; exact family geometry/material/closure reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photo for fictional Elnuara.\nInput image: inspected canonical smaller-size product photograph. This is an edit target and exact packaging-family reference.\nPrimary request: Create the LARGE500ml member of this exact250ml packaging family. Increase the opaque cream softly squared body about25% in width/depth and25% in body height relative to the unchanged ivory pump. It must look visibly larger and more capacious with a smaller closure-to-body ratio. Preserve its rounded shoulders/edges, softly squared cross-section, opaque cream material and exact ivory dispensing pump design; no coloured liquid visible. Keep physical pump closure size unchanged.\nComposition/lighting invariants: one complete closed upright vessel only, same warm cream backdrop and pale stone surface, same warm soft upper-left window light and three-quarter viewing angle. Square image with generous margins; if needed pull camera back only enough to retain the whole larger vessel in frame. It must be a newly photographed-looking larger size with visibly adjusted body proportions, NOT an identical small-size photo relabelled.\nConstraints: preserve original fictional family; no words, letters, numbers, printed sizes, label, logos, certification marks, watermark, people, extra vessels or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-d50e62ff-87e9-4c58-a3cc-2e29060299b1.png",
+      "inspection": "Inspected alongside250: cream rounded-square family and ivory pump retained; visibly broader/taller body with smaller relative pump.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-d50e62ff-87e9-4c58-a3cc-2e29060299b1.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1605157,
+        "sha256": "10cffa8386f49732a5ce9ca3bb8ab4796f04f10bff84f41fc114201dd7d3ac28",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/still-water-500.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 17780,
+          "sha256": "8074451e0c01e55f61448665a54a483087653c63bee6d7153a803a9e2cdc51df",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/still-water-500-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 5940,
+          "sha256": "1629095a67dc98ba6d79a3b9b789c3a83aa53cbeca6704f5a08537f1a93154c6",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "quiet-dune-150",
+      "productId": "quiet-dune",
+      "variantId": "150",
+      "kind": "product",
+      "shape": "square",
+      "references": [],
+      "prompt": "Use case: product-mockup\nAsset type: square catalogue photograph for original fictional Elnuara body care.\nPrimary request: one SMALL150ml body-balm jar: low wide opaque warm cream ceramic-like cylindrical jar with softly rounded edges and a shallow amber-brown lid. Lid is closed, simple flat-disc profile, plain smooth edges. Sculptural soft cylinder, no transparency or visible contents.\nScene/backdrop: warm cream seamless studio background and subtly textured pale stone surface, no props.\nStyle: photorealistic premium editorial product photography with natural tactile material detail.\nComposition: square, exactly one complete closed upright product centered in three-quarter view slightly above its midline, generous uniform margins, product occupies65–70% of image frame; soft grounded shadow.\nLighting: diffused warm window light upper-left, cream/muted-sage/amber palette.\nConstraints: no words, letters, numbers, printed size, label, logo, certification, watermark, people, extra vessels, famous packaging clone or interface. Opaque background. Plausible compact smaller-size proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-9536b54c-8c3c-4490-908f-d5a516678edc.png",
+      "inspection": "Inspected: low wide opaque cream ceramic-like jar with shallow amber-brown closed lid; soft cylinder, no inscriptions.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-9536b54c-8c3c-4490-908f-d5a516678edc.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1966022,
+        "sha256": "e637db0c468e6c8894526e86751a92079dc84258845ababf2101d23d0fe66d58",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/quiet-dune-150.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 48350,
+          "sha256": "23adf7a3fd8621a238e3927e4d41a13bcc09a903349faf72f3530a1d6d59210d",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/quiet-dune-150-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 14522,
+          "sha256": "16a31ce0051f1c9e09d93f31d9f11144a59afd6d23848b562a1509ada1de34b0",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "stone-grain-200",
+      "productId": "stone-grain",
+      "variantId": "200",
+      "kind": "product",
+      "shape": "square",
+      "references": [],
+      "prompt": "Use case: product-mockup\nAsset type: square catalogue photograph for original fictional Elnuara body care.\nPrimary request: one SMALL200g body-scrub jar: broad low frosted muted-sage glass jar with a rounded natural wooden lid. Fine pale grain-like contents subtly visible through frosted sage glass; not liquid. Plain smooth pale wood with real subtle grain, closed fitted lid. Distinct from an opaque cream balm jar.\nScene/backdrop: warm cream seamless studio background and subtly textured pale stone surface, no props.\nStyle: photorealistic premium editorial product photography with natural tactile material detail.\nComposition: square, exactly one complete closed upright product centered in three-quarter view slightly above its midline, generous uniform margins, product occupies65–70% of image frame; soft grounded shadow.\nLighting: diffused warm window light upper-left, cream/muted-sage/amber palette.\nConstraints: no words, letters, numbers, printed size, label, logo, certification, watermark, people, extra vessels, famous packaging clone or interface. Opaque background. Plausible compact smaller-size proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-867d457f-ec4f-4e42-a128-ffcfc8a6e7dc.png",
+      "inspection": "Inspected: broad frosted sage glass jar, subtly visible grain-like contents and rounded natural wood lid; distinct from cream balm.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-867d457f-ec4f-4e42-a128-ffcfc8a6e7dc.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1998199,
+        "sha256": "50a3051233e19db25898f6dcfb5f0b2381be291763d873bff24a746a01a202f5",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/stone-grain-200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 65092,
+          "sha256": "792501b14fcbba63914bc3629549c327e253c7e03789dee6a49770c69af16e1b",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/stone-grain-200-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 19772,
+          "sha256": "c906317b8533c754421e7501008b955abc3bbf228b40b6a5d3adaa1f4cdf4a50",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "palm-leaf-300",
+      "productId": "palm-leaf",
+      "variantId": "300",
+      "kind": "product",
+      "shape": "square",
+      "references": [],
+      "prompt": "Use case: product-mockup\nAsset type: square catalogue photograph for original fictional Elnuara body care.\nPrimary request: one SMALL300ml hand-wash bottle: squat wide amber-glass bottle with broad rounded shoulders and a simple cream pump with short dispensing spout. The amber body is decidedly short and wide, with a broad front and modest cylindrical depth, unlike a tall slender body wash. Golden amber gel visible, no cream band around body.\nScene/backdrop: warm cream seamless studio background and subtly textured pale stone surface, no props.\nStyle: photorealistic premium editorial product photography with natural tactile material detail.\nComposition: square, exactly one complete closed upright product centered in three-quarter view slightly above its midline, generous uniform margins, product occupies65–70% of image frame; soft grounded shadow.\nLighting: diffused warm window light upper-left, cream/muted-sage/amber palette.\nConstraints: no words, letters, numbers, printed size, label, logo, certification, watermark, people, extra vessels, famous packaging clone or interface. Opaque background. Plausible compact smaller-size proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-53b53aba-2385-4372-a8ca-1099f6bcef4a.png",
+      "inspection": "Inspected: squat wide amber hand-wash bottle with cream dispensing pump and broad shoulders; shorter/wider than Citrus Veil, no band or words.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-53b53aba-2385-4372-a8ca-1099f6bcef4a.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1929046,
+        "sha256": "48e6bc869e752c8418bc73429e7a9f3d4e1a16a0fbe553dfc52e01e61b06a2b3",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/palm-leaf-300.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 66282,
+          "sha256": "df8748bde96763acd8faac8a62f266d68cc40481339ec2cc796b45871ad9e4ba",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/palm-leaf-300-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 22282,
+          "sha256": "6cab4d8299b18382c6cba607ec703bce62d37d63bb0ccf851b38628ed4260239",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "soft-palm-50",
+      "productId": "soft-palm",
+      "variantId": "50",
+      "kind": "product",
+      "shape": "square",
+      "references": [],
+      "prompt": "Use case: product-mockup\nAsset type: square catalogue photograph for original fictional Elnuara body care.\nPrimary request: one SMALL50ml hand-cream tube: warm ecru coated aluminium tube with a visibly folded/crimped base, brushed silver metal screw cap and a narrow plain amber accent band near the cap. Slight natural aluminium creases, original simple sculptural form. Upright resting on its closed metal cap with folded end at top, complete tube visible; no brand resemblance.\nScene/backdrop: warm cream seamless studio background and subtly textured pale stone surface, no props.\nStyle: photorealistic premium editorial product photography with natural tactile material detail.\nComposition: square, exactly one complete closed upright product centered in three-quarter view slightly above its midline, generous uniform margins, product occupies65–70% of image frame; soft grounded shadow.\nLighting: diffused warm window light upper-left, cream/muted-sage/amber palette.\nConstraints: no words, letters, numbers, printed size, label, logo, certification, watermark, people, extra vessels, famous packaging clone or interface. Opaque background. Plausible compact smaller-size proportions.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-62297d83-ef1e-473b-9da0-229b7411e0a1.png",
+      "inspection": "Inspected: warm ecru aluminium tube, folded top base, closed brushed metal screw cap below and narrow amber band; no text.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-62297d83-ef1e-473b-9da0-229b7411e0a1.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1840015,
+        "sha256": "412d2a524aee59b70d9116fc2a96ed7d78a4ae4701ec4c79adede7e93b6b868d",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/soft-palm-50.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 32550,
+          "sha256": "58684dfedda55c9df8ccf5333cf758dec6613186f6f786d43eaea400bc25ab7a",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/soft-palm-50-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 10250,
+          "sha256": "d32f956b40f4ee31d5a9b88a9466b3c608ee651322dec249fcd056658b89f9bb",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "quiet-dune-300",
+      "productId": "quiet-dune",
+      "variantId": "300",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "quiet-dune-150",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-9536b54c-8c3c-4490-908f-d5a516678edc.png",
+          "role": "Inspected canonical smaller-size packaging-family reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photograph for fictional Elnuara.\nInput image: inspected canonical smaller-size photograph; exact packaging family edit target.\nPrimary request: Create the LARGE300ml member of this exact150ml balm-jar family. Increase cream jar diameter about20% and increase the cream body-wall height about40%, so it is visibly more capacious with a taller cream wall relative to its shallow amber-brown lid. Widen the lid to fit the new diameter but keep its shallow thickness and edge profile. Preserve low wide cylindrical family, soft rounded body edges, opaque cream ceramic-like texture and exact amber-brown lid colour. Not the identical150ml photograph.\nInvariants: one complete closed upright product, same three-quarter camera angle, warm cream seamless background and textured pale stone surface, soft diffused warm upper-left light. Square frame with enough margin to retain entire new larger size; pull camera back only as required. Retain family's material, colours and distinctive closure, while visibly adjusting body proportions for new size.\nConstraints: no words, letters, numbers, printed size, label, logos, certifications, watermark, people, extra vessels, famous brand clone or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-f8e8651d-39e4-4446-958d-efaa8e727c21.png",
+      "inspection": "Inspected against150: same cream ceramic-like soft cylinder and shallow amber-brown lid, visibly taller cream wall relative to lid and broader vessel.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-f8e8651d-39e4-4446-958d-efaa8e727c21.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1989333,
+        "sha256": "a635abb346ad67d735d749f49f14b1d914a21d5686d0081d9b1f5d29af090eae",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/quiet-dune-300.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 52656,
+          "sha256": "7340f6d66d3f538cc72415acb5c180a07d446a92e3fd2be3dbafd37dbefe34ef",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/quiet-dune-300-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 14970,
+          "sha256": "5cf412dcc0030c94dd91273e2a86d20480d59a38bc2ef4486a628484691bb09b",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "stone-grain-350",
+      "productId": "stone-grain",
+      "variantId": "350",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "stone-grain-200",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-867d457f-ec4f-4e42-a128-ffcfc8a6e7dc.png",
+          "role": "Inspected canonical smaller-size packaging-family reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photograph for fictional Elnuara.\nInput image: inspected canonical smaller-size photograph; exact packaging family edit target.\nPrimary request: Create the LARGE350g member of this exact200g scrub-jar family. Increase frosted sage jar diameter about20% and body-wall height about25%, making the vessel visibly more capacious with a taller frosted glass wall. Widen its fitted wooden lid to match but keep lid thickness, rounded edge and natural pale-wood grain family. Preserve muted-sage frosted glass and subtly visible pale grain-like contents, no liquid. It remains a broad low jar, clearly distinct from the smaller200g image. Availability status is not pictured; this is accurate original product artwork for the stock-zero variant too.\nInvariants: one complete closed upright product, same three-quarter camera angle, warm cream seamless background and textured pale stone surface, soft diffused warm upper-left light. Square frame with enough margin to retain entire new larger size; pull camera back only as required. Retain family's material, colours and distinctive closure, while visibly adjusting body proportions for new size.\nConstraints: no words, letters, numbers, printed size, label, logos, certifications, watermark, people, extra vessels, famous brand clone or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-e4f38dca-d687-49bf-b9f2-c74d977b1eb4.png",
+      "inspection": "Inspected against200: frosted sage/grain-like contents/rounded wood family retained; visibly taller glass wall and larger jar; stock0 does not alter imagery.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-e4f38dca-d687-49bf-b9f2-c74d977b1eb4.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 2065352,
+        "sha256": "4f3efa61c1ebbfe2eaf97b7487e3e3aa4c80dca2b62c2af1e5d46da2903d868f",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/stone-grain-350.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 71818,
+          "sha256": "349c40015842b2843096687a4baa7e4b9084a85e56e1d32db677ed64c92bdc06",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/stone-grain-350-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 21764,
+          "sha256": "4ddcc5cba922e564a8d1e8964d5444616dafd89a0f737f6ae1341a5b11ce96ce",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "palm-leaf-500",
+      "productId": "palm-leaf",
+      "variantId": "500",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "palm-leaf-300",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-53b53aba-2385-4372-a8ca-1099f6bcef4a.png",
+          "role": "Inspected canonical smaller-size packaging-family reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photograph for fictional Elnuara.\nInput image: inspected canonical smaller-size photograph; exact packaging family edit target.\nPrimary request: Create the LARGE500ml member of this exact300ml hand-wash family. Increase the squat amber bottle body's width/depth about22% and body height about15%, leaving physical cream pump closure size and design unchanged. Make the bottle visibly broader and more capacious with smaller pump-to-body ratio, retaining squat broad-shouldered proportions, amber glass, golden gel, subtle bubbles, cream pump and no body band. It must remain much shorter/wider in body proportion than a tall cylindrical body wash.\nInvariants: one complete closed upright product, same three-quarter camera angle, warm cream seamless background and textured pale stone surface, soft diffused warm upper-left light. Square frame with enough margin to retain entire new larger size; pull camera back only as required. Retain family's material, colours and distinctive closure, while visibly adjusting body proportions for new size.\nConstraints: no words, letters, numbers, printed size, label, logos, certifications, watermark, people, extra vessels, famous brand clone or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-863c4280-9b2c-4905-af05-42c9e60dff7c.png",
+      "inspection": "Inspected against300: squat broad amber/cream-pump family retained, noticeably wider larger body and reduced closure-to-body ratio; distinct from tall Citrus.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-863c4280-9b2c-4905-af05-42c9e60dff7c.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1919039,
+        "sha256": "4d574180d3de549bb83e33a611f33219eef67daedbcafa19a62ee315f128306d",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/palm-leaf-500.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 70796,
+          "sha256": "75470725420b4dd911049547ef3a87b0e1df602380ea969b5dc8cfe97fb24d6e",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/palm-leaf-500-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 22970,
+          "sha256": "2c36c945cc5a85ad73f1f626d2510f8b0224724b5f2a82d96441abf7ae69e3a6",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    },
+    {
+      "id": "soft-palm-100",
+      "productId": "soft-palm",
+      "variantId": "100",
+      "kind": "product",
+      "shape": "square",
+      "references": [
+        {
+          "id": "soft-palm-50",
+          "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-62297d83-ef1e-473b-9da0-229b7411e0a1.png",
+          "role": "Inspected canonical smaller-size packaging-family reference"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit\nAsset type: square size-specific catalogue photograph for fictional Elnuara.\nInput image: inspected canonical smaller-size photograph; exact packaging family edit target.\nPrimary request: Create the LARGE100ml member of this exact50ml hand-cream tube family. Make the ecru aluminium tube body about35% longer and20% wider relative to the unchanged physical brushed-metal screw cap. The tube should look visibly longer and more capacious, with a smaller cap-to-body ratio. Preserve warm ecru coated aluminium, natural creases, folded/crimped base at top, the narrow plain amber accent band by the cap, and exact brushed silver cap design. Upright resting on closed cap, not identical to the smaller50ml image.\nInvariants: one complete closed upright product, same three-quarter camera angle, warm cream seamless background and textured pale stone surface, soft diffused warm upper-left light. Square frame with enough margin to retain entire new larger size; pull camera back only as required. Retain family's material, colours and distinctive closure, while visibly adjusting body proportions for new size.\nConstraints: no words, letters, numbers, printed size, label, logos, certifications, watermark, people, extra vessels, famous brand clone or interface. Opaque image.",
+      "sourcePath": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-da737420-0c00-43f4-87df-8325d9a2c75c.png",
+      "inspection": "Inspected against50: same ecru folded aluminium tube, brushed closed cap and amber band, visibly elongated body and smaller relative cap.",
+      "source": {
+        "path": "/Users/khalilbenali/.codex/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-da737420-0c00-43f4-87df-8325d9a2c75c.png",
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "bytes": 1801110,
+        "sha256": "8e3befe3cd3a19e985dc9eee26d28a36e18ae952cc9d0cd501ffe3344f8775da",
+        "hasAlpha": false
+      },
+      "deliveries": [
+        {
+          "file": "static/images/soft-palm-100.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 32782,
+          "sha256": "a8da242bd6ed821dd5c4a86c7e9f7d1dcbce48ad467029781cb84dc1eca6a051",
+          "opaque": true,
+          "resize": "downsampled"
+        },
+        {
+          "file": "static/images/soft-palm-100-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 9718,
+          "sha256": "65281510e1cd41c8ddbba6a48a20d99f10352fc12675341f9df63447ee870206",
+          "opaque": true,
+          "resize": "downsampled"
+        }
+      ],
+      "exportTool": "Sharp; WebP quality82 effort6; proportional resizing only"
+    }
+  ],
+  "validatedAt": "2026-11-03T10:12:18.425Z",
+  "licensing": {
+    "origin": "Original images generated with the built-in OpenAI image_gen tool for this fictional project; no external stock, client photographs or other portfolio-brand imagery used.",
+    "thirdPartyStockLicense": "None used",
+    "codeLicenseDoesNotDescribeImages": true,
+    "fonts": "Font provenance and OFL licenses are maintained separately by the app owner."
+  },
+  "summary": {
+    "selectedOriginals": 19,
+    "sizeSpecificProductOriginals": 16,
+    "campaignOriginals": 3,
+    "responsiveWebPFiles": 38,
+    "fullBytes": 1056890,
+    "smallBytes": 354534,
+    "totalBytes": 1411424,
+    "sourceHashesUnique": true,
+    "deliveryHashesUnique": true,
+    "allDecoded": true,
+    "allOpaque": true,
+    "exactCanonicalFilenames": true,
+    "allVisuallyInspected": true,
+    "upsampledFullFiles": ["amber-light.webp"]
+  }
+}

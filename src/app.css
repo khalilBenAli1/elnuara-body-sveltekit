@@ -1,0 +1,1529 @@
+@font-face {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('./lib/assets/fonts/fraunces-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('./lib/assets/fonts/plus-jakarta-latin.woff2') format('woff2');
+}
+:root {
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-synthesis: none;
+  color: #35412e;
+  background: #f6f2e9;
+  --cream: #f6f2e9;
+  --paper: #fbf8f1;
+  --ink: #35412e;
+  --muted: #626951;
+  --sage: #acb89c;
+  --line: #d8dccd;
+  --amber: #9a613a;
+  --display: Fraunces, Georgia, serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+a,
+button {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #80522f;
+  outline-offset: 4px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+p {
+  line-height: 1.8;
+}
+svg {
+  flex-shrink: 0;
+}
+h1,
+h2 {
+  font-family: var(--display);
+  font-variation-settings:
+    'SOFT' 35,
+    'WONK' 1;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
+}
+h1 {
+  font-size: clamp(3rem, 6.2vw, 6rem);
+}
+h2 {
+  font-size: clamp(2rem, 3.5vw, 3.7rem);
+}
+h1 em,
+h2 em {
+  font-weight: 400;
+  color: #566448;
+}
+h3 {
+  font-size: 1.04rem;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.eyebrow {
+  font-size: 0.61rem;
+  letter-spacing: 0.17em;
+  font-weight: 600;
+  line-height: 1.7;
+}
+.quiet {
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.8;
+}
+.skip-link {
+  position: fixed;
+  top: -5rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 1rem;
+  background: var(--ink);
+  color: var(--cream);
+}
+.skip-link:focus {
+  top: 1rem;
+}
+.announcement {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 3.5vw;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.59rem;
+  letter-spacing: 0.06em;
+}
+.site-header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 3.5vw;
+  border-bottom: 1px solid var(--line);
+  background: var(--cream);
+}
+.wordmark {
+  font-family: var(--display);
+  font-size: 2.9rem;
+  line-height: 1;
+  letter-spacing: -0.07em;
+  white-space: nowrap;
+}
+.wordmark > span {
+  font-family: Arial, sans-serif;
+  font-size: 0.45rem;
+  vertical-align: top;
+  letter-spacing: 0;
+  margin-left: 0.25rem;
+  position: relative;
+  top: 0.5rem;
+}
+.desktop-nav {
+  display: flex;
+  gap: 2.3rem;
+  font-size: 0.72rem;
+  align-items: center;
+}
+.desktop-nav a {
+  padding: 0.5rem 0;
+}
+.desktop-nav a[aria-current] {
+  border-bottom: 1px solid;
+}
+.bag-trigger {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.7rem;
+  padding: 0.4rem 0;
+  min-height: 2.75rem;
+}
+.bag-count {
+  margin-left: 0.3rem;
+  font-size: 0.6rem;
+}
+.menu-trigger {
+  display: none;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  min-height: 3.2rem;
+  border-radius: 0;
+  padding: 1rem 1.45rem;
+  font-size: 0.72rem;
+  border: 1px solid transparent;
+  line-height: 1.5;
+  text-align: left;
+}
+.button.dark {
+  background: var(--ink);
+  color: var(--cream);
+  border-color: var(--ink);
+}
+.button.dark:hover {
+  background: #47523c;
+}
+.button.cream {
+  background: var(--cream);
+  color: var(--ink);
+}
+.button.outline {
+  border-color: #a8af9a;
+}
+.button.full {
+  width: 100%;
+}
+.button svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.text-link {
+  display: inline-flex;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 0.72rem;
+  border-bottom: 1px solid #a7ae98;
+  padding-bottom: 0.55rem;
+  line-height: 1.7;
+}
+.text-link svg {
+  width: 1rem;
+  height: 1rem;
+}
+.text-button {
+  font-size: 0.67rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  padding: 0.5rem 0;
+  min-height: 2.25rem;
+  text-align: left;
+}
+.icon-button {
+  display: grid;
+  place-items: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0.65rem;
+}
+.ritual-stage {
+  background: var(--sage);
+  position: relative;
+  isolation: isolate;
+  padding: 2rem 3.5vw 2.5rem;
+  min-height: 47rem;
+}
+.stage-topline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  color: #3d4d33;
+}
+.stage-topline .eyebrow {
+  font-size: 0.54rem;
+  letter-spacing: 0.16em;
+}
+.ritual-stage h1 {
+  position: relative;
+  z-index: 2;
+  margin: 2.2rem auto 0;
+  text-align: center;
+  font-size: clamp(3.5rem, 6.3vw, 6.5rem);
+  line-height: 0.98;
+  max-width: 58rem;
+}
+.ritual-stage h1 em {
+  font-style: normal;
+  color: #34472e;
+  font-weight: 300;
+}
+.stage-aperture {
+  width: min(50vw, 44rem);
+  aspect-ratio: 1.35;
+  margin: -2.3rem auto 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #e7e3d7;
+  box-shadow: 0 2rem 3rem #53644918;
+}
+.stage-aperture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sensory-rail {
+  position: absolute;
+  top: 46%;
+  right: 3.5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  z-index: 2;
+  font-size: 0.59rem;
+  letter-spacing: 0.01em;
+  color: #37482e;
+  padding: 2rem 0 2rem 1.6rem;
+  border-left: 1px solid #7b8c6d;
+}
+.rail-line {
+  height: 2.2rem;
+  width: 1px;
+  background: #354a2a;
+  position: absolute;
+  left: -1px;
+  top: 0;
+}
+.stage-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+  margin-top: 1.8rem;
+  gap: 2rem;
+}
+.stage-bottom > p {
+  font-family: var(--display);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.stage-bottom .button {
+  min-width: 15rem;
+}
+.stage-number {
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  width: 9rem;
+  text-align: right;
+}
+.stage-orbit {
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 1px solid #506047;
+  position: absolute;
+  left: 4vw;
+  top: 48%;
+  border-radius: 50%;
+}
+.stage-orbit:after {
+  content: '';
+  position: absolute;
+  inset: 0.45rem;
+  border: 1px solid #506047;
+  border-radius: 50%;
+}
+.intro-section {
+  max-width: 47rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6.5rem 2rem 6rem;
+}
+.intro-section > .eyebrow {
+  margin-bottom: 1.7rem;
+  color: #677359;
+}
+.intro-section h2 {
+  font-size: clamp(2rem, 3.6vw, 3.3rem);
+  line-height: 1.16;
+  margin-bottom: 1.6rem;
+}
+.intro-section > p:not(.eyebrow) {
+  font-size: 0.79rem;
+  max-width: 33rem;
+  margin: 0 auto 1.8rem;
+  color: #636c57;
+}
+.section-pad {
+  padding: 0 3.5vw 5.5rem;
+}
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2.4rem;
+}
+.section-heading h2 {
+  font-size: 2.8rem;
+  margin-top: 0.7rem;
+}
+.section-heading .eyebrow {
+  font-size: 0.56rem;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.product-card {
+  min-width: 0;
+}
+.product-image {
+  position: relative;
+  display: block;
+  background: #ede9df;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.product-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.product-image:hover > img {
+  transform: scale(1.025);
+}
+.image-arrow {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #f8f6eed9;
+}
+.image-arrow svg {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.product-index {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  font-size: 0.58rem;
+  color: #4d5b43;
+}
+.product-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1.3rem 0 0.65rem;
+}
+.product-card-top .eyebrow {
+  font-size: 0.52rem;
+}
+.scent-note {
+  font-size: 0.53rem;
+  color: #66705a;
+  line-height: 1.6;
+  text-align: right;
+}
+.product-card h3 {
+  font-family: var(--display);
+  font-size: 1.28rem;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.product-card > p {
+  font-size: 0.65rem;
+  margin-top: 0.5rem;
+  color: #66705a;
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1.2rem;
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.67rem;
+  flex-wrap: wrap;
+}
+.product-price > a {
+  color: #536247;
+  font-size: 0.62rem;
+}
+.product-price > a > span {
+  margin-left: 0.8rem;
+}
+.ritual-invitation {
+  margin: 0 3.5vw 5.5rem;
+  padding: 4.8rem 8vw;
+  position: relative;
+  background: #e2e5d6;
+  min-height: 29rem;
+}
+.invitation-number {
+  position: absolute;
+  right: 3rem;
+  top: 2.5rem;
+  font-family: var(--display);
+  font-size: 1.2rem;
+  color: #66775a;
+}
+.ritual-invitation > .eyebrow {
+  margin-bottom: 1.5rem;
+}
+.ritual-invitation h2 {
+  font-size: clamp(2.5rem, 4.5vw, 4.5rem);
+  line-height: 1.15;
+  max-width: 48rem;
+  margin-bottom: 1.4rem;
+}
+.ritual-invitation h2 em {
+  font-style: normal;
+  font-weight: 300;
+}
+.ritual-invitation > p:not(.eyebrow) {
+  font-size: 0.75rem;
+  line-height: 1.9;
+  margin-bottom: 1.8rem;
+  max-width: 27rem;
+}
+.ritual-invitation > svg {
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  width: 8rem;
+  height: 8rem;
+  stroke-width: 0.55;
+  color: #8c9b7b;
+  transform: rotate(-8deg);
+}
+.materials-teaser {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  background: #e7dfd1;
+}
+.materials-photo {
+  min-width: 0;
+}
+.materials-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.materials-copy {
+  padding: 5rem 5vw 4rem;
+  align-self: center;
+}
+.materials-copy > .eyebrow {
+  margin-bottom: 1.4rem;
+}
+.materials-copy h2 {
+  font-size: clamp(2.7rem, 4.3vw, 4.8rem);
+  line-height: 1.05;
+  margin-bottom: 1.4rem;
+}
+.materials-copy > p:not(.eyebrow) {
+  font-size: 0.75rem;
+  color: #5f6753;
+  max-width: 20rem;
+  margin-bottom: 1.8rem;
+}
+.site-footer {
+  padding: 4rem 3.5vw 1.5rem;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+.footer-top > .wordmark {
+  font-size: 4rem;
+  align-self: start;
+}
+.footer-top > p {
+  font-family: var(--display);
+  font-size: 1.65rem;
+  line-height: 1.35;
+}
+.footer-top > nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  font-size: 0.68rem;
+  line-height: 1.8;
+}
+.footer-bottom {
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.53rem;
+  line-height: 1.8;
+}
+.footer-bottom .text-button {
+  font-size: 0.53rem;
+}
+.storage-notice {
+  background: #eee2c9;
+  padding: 1rem 3.5vw;
+  font-size: 0.75rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.storage-notice p {
+  max-width: 65rem;
+}
+.storage-notice button {
+  white-space: nowrap;
+}
+dialog {
+  border: 0;
+  color: var(--ink);
+  background: var(--cream);
+  padding: 2rem;
+  width: min(38rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 3rem);
+  overflow: auto;
+  box-shadow: 0 1rem 5rem #28342028;
+}
+dialog::backdrop {
+  background: #2c372d75;
+  backdrop-filter: blur(3px);
+}
+.bag-dialog {
+  position: fixed;
+  inset: 0 0 0 auto;
+  margin: 0;
+  height: 100dvh;
+  max-height: none;
+  width: min(34rem, 100vw);
+  padding: 2rem 2.2rem;
+}
+.dialog-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 1.8rem;
+}
+.dialog-heading h2 {
+  font-size: 2.5rem;
+  margin-top: 0.8rem;
+}
+.dialog-heading h2 > span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+.dialog-heading .eyebrow {
+  font-size: 0.55rem;
+}
+.empty-bag {
+  text-align: center;
+  padding: 2.5rem 0 3rem;
+}
+.empty-bag > svg {
+  width: 3rem;
+  height: 3rem;
+  stroke-width: 0.8;
+  margin: auto;
+  color: #7d8b6e;
+}
+.empty-bag h2 {
+  font-size: 2.7rem;
+  line-height: 1.15;
+  margin: 2rem 0 1.3rem;
+}
+.empty-bag p {
+  font-size: 0.75rem;
+  color: #69745b;
+  margin-bottom: 1.8rem;
+}
+.bag-lines {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bag-line {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr) auto;
+  gap: 1.2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.bag-line-image {
+  aspect-ratio: 1;
+  background: #eae6db;
+  align-self: start;
+}
+.bag-line-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bag-line-copy h3 {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.bag-line-copy p {
+  font-size: 0.63rem;
+  color: #6b745e;
+  margin-top: 0.35rem;
+}
+.unit-price {
+  font-size: 0.64rem;
+  display: block;
+  margin-top: 0.5rem;
+}
+.line-total {
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-align: right;
+  white-space: normal;
+}
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #bfc7b3;
+  width: 7rem;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+.quantity-control button {
+  display: grid;
+  place-items: center;
+  min-width: 2.2rem;
+  min-height: 2.3rem;
+}
+.quantity-control button svg {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.quantity-control > span {
+  font-size: 0.75rem;
+  padding: 0 0.3rem;
+}
+.bag-summary {
+  margin-top: 2rem;
+}
+.bag-summary dl {
+  margin: 0 0 1rem;
+}
+.bag-summary dl > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 0.78rem;
+  line-height: 1.8;
+  margin: 0.8rem 0;
+}
+.bag-summary dd {
+  margin: 0;
+  text-align: right;
+}
+.bag-summary .total {
+  border-top: 1px solid var(--line);
+  padding-top: 1.2rem;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+.bag-summary .quiet {
+  margin-bottom: 1.4rem;
+  font-size: 0.64rem;
+}
+.menu-dialog {
+  inset: 0 auto 0 0;
+  margin: 0;
+  min-height: 100dvh;
+  max-height: none;
+  width: min(26rem, 100vw);
+}
+.menu-dialog nav {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  gap: 0.75rem;
+}
+.menu-dialog nav > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--display);
+  font-size: 1.6rem;
+}
+.menu-dialog > p {
+  font-size: 0.75rem;
+}
+.reset-dialog {
+  padding: 2rem;
+}
+.reset-dialog h2 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.reset-dialog > p {
+  font-size: 0.83rem;
+}
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.dialog-actions .button {
+  gap: 1rem;
+}
+.toast {
+  position: fixed;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.8rem 1rem 0.8rem 1.3rem;
+  max-width: calc(100vw - 2rem);
+  width: max-content;
+  z-index: 80;
+  background: #35432e;
+  color: #fbf7ef;
+  box-shadow: 0 0.5rem 2rem #28342020;
+  font-size: 0.73rem;
+  line-height: 1.7;
+}
+.toast > span {
+  min-width: 0;
+}
+.toast > a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  white-space: nowrap;
+}
+.toast button {
+  padding: 0.4rem;
+  color: inherit;
+  min-height: 2rem;
+  flex-shrink: 0;
+}
+.toast button svg {
+  width: 1rem;
+  height: 1rem;
+}
+.error-toast {
+  background: #794e30;
+}
+.empty-page {
+  padding: 6rem 6vw;
+  min-height: 60vh;
+}
+.empty-page h1 {
+  margin: 2rem 0;
+}
+.empty-page > .button {
+  margin-top: 2rem;
+}
+@media (max-width: 1100px) {
+  .site-header {
+    gap: 1rem;
+  }
+  .desktop-nav {
+    gap: 1.5rem;
+  }
+  .ritual-stage {
+    min-height: 44rem;
+  }
+  .ritual-stage h1 {
+    font-size: 5rem;
+  }
+  .stage-aperture {
+    width: 58vw;
+    margin-top: -1.2rem;
+  }
+  .sensory-rail {
+    font-size: 0.53rem;
+    padding-left: 1rem;
+    gap: 1.5rem;
+  }
+  .stage-number {
+    width: auto;
+  }
+  .product-grid {
+    gap: 1rem;
+  }
+  .product-card h3 {
+    font-size: 1.15rem;
+  }
+  .product-card-top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .scent-note {
+    text-align: left;
+  }
+  .materials-copy {
+    padding: 3rem 4vw;
+  }
+  .ritual-invitation > svg {
+    right: 8%;
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media (max-width: 800px) {
+  .announcement {
+    padding: 0.65rem 1.5rem;
+  }
+  .announcement > span:first-child {
+    display: none;
+  }
+  .announcement > span:last-child {
+    margin: auto;
+  }
+  .site-header {
+    padding: 1.2rem 1.5rem;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .menu-trigger {
+    display: grid;
+  }
+  .site-header > .wordmark {
+    font-size: 2.6rem;
+  }
+  .bag-trigger > span {
+    font-size: 0.65rem;
+  }
+  .bag-trigger {
+    gap: 0.6rem;
+  }
+  .ritual-stage {
+    padding: 1.5rem 1.5rem 2rem;
+    min-height: 43rem;
+  }
+  .stage-topline .eyebrow {
+    font-size: 0.48rem;
+  }
+  .ritual-stage h1 {
+    font-size: 4.8rem;
+    margin-top: 2.8rem;
+    line-height: 1.02;
+  }
+  .stage-aperture {
+    width: 70vw;
+    margin-top: -0.7rem;
+  }
+  .sensory-rail {
+    position: relative;
+    right: auto;
+    top: auto;
+    flex-direction: row;
+    border-left: 0;
+    padding: 0;
+    gap: 1rem;
+    justify-content: center;
+    font-size: 0.48rem;
+    margin-top: 1.8rem;
+  }
+  .rail-line {
+    display: none;
+  }
+  .stage-orbit {
+    display: none;
+  }
+  .stage-bottom {
+    margin-top: 2.5rem;
+  }
+  .stage-bottom > p {
+    font-size: 0.95rem;
+  }
+  .stage-number {
+    display: none;
+  }
+  .stage-bottom .button {
+    min-width: 14rem;
+  }
+  .intro-section {
+    padding: 4.8rem 1.5rem;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem 1.3rem;
+  }
+  .section-pad {
+    padding: 0 1.5rem 4rem;
+  }
+  .section-heading h2 {
+    font-size: 2.3rem;
+  }
+  .section-heading .text-link {
+    font-size: 0.65rem;
+  }
+  .product-card-top {
+    flex-direction: row;
+    align-items: center;
+  }
+  .product-card h3 {
+    font-size: 1.4rem;
+  }
+  .product-card > p {
+    font-size: 0.72rem;
+  }
+  .product-price {
+    font-size: 0.75rem;
+  }
+  .product-price > a {
+    font-size: 0.68rem;
+  }
+  .ritual-invitation {
+    margin: 0 1.5rem 4rem;
+    padding: 3.5rem 2.5rem;
+  }
+  .ritual-invitation h2 {
+    font-size: 3.2rem;
+  }
+  .ritual-invitation > svg {
+    width: 4rem;
+    height: 4rem;
+    right: 7%;
+    bottom: 12%;
+  }
+  .materials-teaser {
+    grid-template-columns: 1fr 1fr;
+  }
+  .materials-copy h2 {
+    font-size: 3rem;
+  }
+  .materials-copy {
+    padding: 3rem 2rem;
+  }
+  .site-footer {
+    padding: 3rem 1.5rem 1.5rem;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-top > nav {
+    grid-column: 1/-1;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+    font-size: 0.53rem;
+  }
+  .footer-bottom > span:last-child {
+    margin-left: auto;
+  }
+  .footer-bottom .text-button {
+    font-size: 0.55rem;
+  }
+  .storage-notice {
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  .storage-notice button {
+    white-space: normal;
+  }
+}
+@media (max-width: 500px) {
+  .announcement {
+    font-size: 0.53rem;
+    padding: 0.6rem 1.2rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .site-header {
+    padding: 1rem 1.1rem;
+    gap: 0.5rem;
+  }
+  .site-header > .wordmark {
+    font-size: 2.55rem;
+  }
+  .site-header > .wordmark > span {
+    top: 0.4rem;
+  }
+  .menu-trigger {
+    padding: 0.5rem;
+    min-width: 2.2rem;
+  }
+  .bag-trigger {
+    font-size: 0.65rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .bag-trigger svg {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+  .bag-count {
+    margin-left: 0.1rem;
+  }
+  .ritual-stage {
+    padding: 1.5rem 1.2rem 1.7rem;
+    min-height: 0;
+  }
+  .stage-topline {
+    gap: 0.7rem;
+  }
+  .stage-topline .eyebrow {
+    font-size: 0.43rem;
+    letter-spacing: 0.1em;
+    line-height: 1.8;
+  }
+  .stage-topline > .eyebrow:last-child {
+    text-align: right;
+    max-width: 8rem;
+  }
+  .ritual-stage h1 {
+    font-size: 3.45rem;
+    letter-spacing: -0.055em;
+    line-height: 1.03;
+    margin-top: 2.5rem;
+    position: relative;
+  }
+  .stage-aperture {
+    width: 100%;
+    aspect-ratio: 1.13;
+    margin-top: -0.1rem;
+    border-radius: 50%;
+  }
+  .stage-aperture > img {
+    object-fit: cover;
+    object-position: center;
+  }
+  .sensory-rail {
+    font-size: 0.42rem;
+    gap: 0.8rem;
+    margin-top: 1.25rem;
+    line-height: 1.8;
+    justify-content: space-between;
+  }
+  .sensory-rail > span:not(.rail-line) {
+    max-width: 6rem;
+  }
+  .stage-bottom {
+    margin-top: 1.7rem;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .stage-bottom > p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .stage-bottom .button {
+    min-width: 0;
+    padding: 1rem 1.1rem;
+    gap: 1.3rem;
+    font-size: 0.64rem;
+  }
+  .button {
+    font-size: 0.72rem;
+    gap: 1.5rem;
+  }
+  .intro-section {
+    padding: 3.8rem 1.2rem 3.7rem;
+  }
+  .intro-section > .eyebrow {
+    font-size: 0.52rem;
+    margin-bottom: 1.4rem;
+  }
+  .intro-section h2 {
+    font-size: 2.2rem;
+    line-height: 1.17;
+    margin-bottom: 1.3rem;
+  }
+  .intro-section > p:not(.eyebrow) {
+    font-size: 0.76rem;
+    margin-bottom: 1.5rem;
+  }
+  .text-link {
+    font-size: 0.66rem;
+    gap: 1rem;
+  }
+  .section-pad {
+    padding: 0 1.2rem 3.5rem;
+  }
+  .section-heading {
+    gap: 1.2rem;
+    align-items: flex-start;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+  }
+  .section-heading h2 {
+    font-size: 2.1rem;
+    margin-top: 0.8rem;
+  }
+  .section-heading .eyebrow {
+    font-size: 0.5rem;
+  }
+  .section-heading > .text-link {
+    font-size: 0.62rem;
+  }
+  .product-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.8rem 0.8rem;
+  }
+  .product-card-top {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0 0.55rem;
+    gap: 0.2rem;
+  }
+  .product-card-top .eyebrow {
+    font-size: 0.47rem;
+  }
+  .scent-note {
+    font-size: 0.48rem;
+    text-align: left;
+  }
+  .product-card h3 {
+    font-size: 1.18rem;
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+  }
+  .product-card > p {
+    font-size: 0.59rem;
+    line-height: 1.8;
+    margin-top: 0.5rem;
+  }
+  .product-price {
+    font-size: 0.64rem;
+    padding-top: 0.9rem;
+    margin-top: 0.9rem;
+    align-items: flex-start;
+    line-height: 1.8;
+    gap: 0.5rem;
+  }
+  .product-price > a {
+    font-size: 0.57rem;
+  }
+  .product-price > a > span {
+    margin-left: 0.3rem;
+  }
+  .image-arrow {
+    right: 0.6rem;
+    bottom: 0.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .image-arrow svg {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+  .product-index {
+    left: 0.7rem;
+    top: 0.7rem;
+    font-size: 0.48rem;
+  }
+  .ritual-invitation {
+    margin: 0 1.2rem 3.5rem;
+    padding: 2.5rem 1.5rem;
+    min-height: 0;
+  }
+  .invitation-number {
+    right: 1.5rem;
+    top: 1.5rem;
+    font-size: 1rem;
+  }
+  .ritual-invitation > .eyebrow {
+    font-size: 0.48rem;
+    margin-bottom: 1.5rem;
+    max-width: 11rem;
+  }
+  .ritual-invitation h2 {
+    font-size: 2.35rem;
+    line-height: 1.15;
+    margin-bottom: 1.3rem;
+    letter-spacing: -0.045em;
+  }
+  .ritual-invitation > p:not(.eyebrow) {
+    font-size: 0.68rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+  }
+  .ritual-invitation > svg {
+    display: none;
+  }
+  .ritual-invitation .button {
+    gap: 1.5rem;
+    font-size: 0.68rem;
+    padding: 1rem 1.1rem;
+  }
+  .materials-teaser {
+    grid-template-columns: 1fr;
+  }
+  .materials-photo {
+    aspect-ratio: 1.4;
+  }
+  .materials-copy {
+    padding: 2.7rem 1.5rem 3rem;
+  }
+  .materials-copy > .eyebrow {
+    font-size: 0.5rem;
+  }
+  .materials-copy h2 {
+    font-size: 3.25rem;
+  }
+  .materials-copy > p:not(.eyebrow) {
+    font-size: 0.74rem;
+    max-width: 20rem;
+  }
+  .site-footer {
+    padding: 2.8rem 1.2rem 1.2rem;
+  }
+  .footer-top {
+    gap: 2rem 1rem;
+    padding-bottom: 2rem;
+  }
+  .footer-top > .wordmark {
+    font-size: 3.5rem;
+  }
+  .footer-top > p {
+    font-size: 1.3rem;
+    align-self: center;
+  }
+  .footer-top > nav {
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.65rem;
+    gap: 1rem;
+  }
+  .footer-bottom {
+    font-size: 0.47rem;
+    gap: 0.8rem;
+    align-items: flex-start;
+  }
+  .footer-bottom .text-button {
+    font-size: 0.48rem;
+    padding: 0.1rem 0;
+    min-height: 1.5rem;
+  }
+  .footer-bottom > span:last-child {
+    margin-left: 0;
+  }
+  .bag-dialog {
+    padding: 1.5rem 1.2rem;
+  }
+  .dialog-heading {
+    padding-bottom: 1.5rem;
+  }
+  .dialog-heading h2 {
+    font-size: 2.2rem;
+  }
+  .dialog-heading .eyebrow {
+    font-size: 0.49rem;
+  }
+  .bag-line {
+    grid-template-columns: 4.8rem minmax(0, 1fr);
+    gap: 0.8rem;
+    padding: 1.3rem 0;
+  }
+  .bag-line-copy h3 {
+    font-size: 0.85rem;
+  }
+  .bag-line-copy p {
+    font-size: 0.59rem;
+  }
+  .line-total {
+    grid-column: 2;
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+    text-align: left;
+  }
+  .quantity-control {
+    width: 6.5rem;
+  }
+  .empty-bag h2 {
+    font-size: 2.3rem;
+  }
+  .empty-bag > .button {
+    font-size: 0.67rem;
+    gap: 1.5rem;
+  }
+  .toast {
+    gap: 0.8rem;
+    padding: 0.7rem 1rem;
+    bottom: 0.8rem;
+    font-size: 0.65rem;
+    max-width: calc(100vw - 1.5rem);
+  }
+  .toast > a {
+    font-size: 0.61rem;
+  }
+  .reset-dialog {
+    padding: 1.5rem;
+  }
+  .reset-dialog h2 {
+    font-size: 2.2rem;
+  }
+  .dialog-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .dialog-actions .button {
+    justify-content: center;
+  }
+  .empty-page {
+    padding: 4rem 1.5rem;
+  }
+  .empty-page h1 {
+    font-size: 3.4rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0.01ms !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Functional copy remains readable within the restrained type system. */
+.desktop-nav,
+.bag-trigger,
+.text-link,
+.button {
+  font-size: 0.8rem;
+}
+.product-card > p,
+.scent-note {
+  font-size: 0.7rem;
+}
+.product-card-top .eyebrow {
+  font-size: 0.58rem;
+}
+.product-price {
+  font-size: 0.85rem;
+}
+.product-price > a {
+  font-size: 0.72rem;
+}
+.footer-bottom,
+.footer-bottom .text-button {
+  font-size: 0.65rem;
+}
+.stage-topline .eyebrow,
+.sensory-rail {
+  font-size: 0.62rem;
+}
+.stage-bottom .button {
+  font-size: 0.8rem;
+}
+@media (max-width: 500px) {
+  .announcement {
+    font-size: 0.62rem;
+  }
+  .bag-trigger > span {
+    font-size: 0.72rem;
+  }
+  .stage-topline .eyebrow,
+  .sensory-rail {
+    font-size: 0.5rem;
+  }
+  .stage-bottom .button {
+    font-size: 0.72rem;
+  }
+  .product-card > p,
+  .scent-note {
+    font-size: 0.63rem;
+  }
+  .product-price {
+    font-size: 0.75rem;
+  }
+  .product-price > a {
+    font-size: 0.65rem;
+  }
+  .footer-bottom,
+  .footer-bottom .text-button {
+    font-size: 0.59rem;
+  }
+}
+.bag-page {
+  max-width: 58rem;
+  margin: auto;
+  padding: 4rem 2rem 5rem;
+}
+.bag-page > h1 {
+  margin: 1.5rem 0 2rem;
+}
+.bag-page .bag-summary {
+  max-width: 29rem;
+  margin-left: auto;
+}
+.bag-page .bag-line {
+  grid-template-columns: 8rem minmax(0, 1fr) auto;
+}
+@media (max-width: 500px) {
+  .bag-page {
+    padding: 3rem 1.2rem;
+  }
+  .bag-page .bag-line {
+    grid-template-columns: 5rem minmax(0, 1fr);
+  }
+  .bag-page .bag-line .line-total {
+    grid-column: 2;
+  }
+}

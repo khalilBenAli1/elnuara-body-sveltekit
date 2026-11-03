@@ -1,0 +1,9 @@
+node_modules/
+.svelte-kit/
+build/
+test-results/
+playwright-report/
+.omx/
+.DS_Store
+.env*
+!.env.example
