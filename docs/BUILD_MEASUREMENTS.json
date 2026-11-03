@@ -4,13 +4,13 @@
   "groups": {
     "javascript": {
       "files": 28,
-      "bytes": 171687,
-      "gzipBytes": 68803
+      "bytes": 171755,
+      "gzipBytes": 68825
     },
     "stylesheets": {
       "files": 1,
-      "bytes": 45731,
-      "gzipBytes": 9244
+      "bytes": 45834,
+      "gzipBytes": 9264
     },
     "fonts": {
       "files": 2,
@@ -24,8 +24,8 @@
     },
     "html": {
       "files": 15,
-      "bytes": 241195,
-      "gzipBytes": 52648
+      "bytes": 241243,
+      "gzipBytes": 52672
     }
   }
 }

@@ -94,6 +94,9 @@ test('rapid type, scent, price and sort updates compose in the URL', async ({
   page
 }) => {
   await page.goto('collection/');
+  await expect(
+    page.getByRole('button', { name: 'Wash', exact: true })
+  ).toBeEnabled();
   await page.evaluate(() => {
     const type = [...document.querySelectorAll('button')].find(
       (b) => b.textContent?.trim() === 'Wash'
@@ -291,6 +294,9 @@ test('corrupt storage remains untouched until own-key reset and preserves anothe
   expect(
     await page.evaluate((key) => localStorage.getItem(key), STORAGE_KEY)
   ).toBe('{broken');
+  await page
+    .getByRole('button', { name: 'Dismiss update', exact: true })
+    .click();
   await page
     .getByRole('contentinfo')
     .getByRole('button', { name: 'Reset saved bag & ritual', exact: true })

@@ -3225,3 +3225,10 @@ h3 {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+/* Wordmark must reflow with genuine doubled Linux WebKit glyph metrics. */
+.footer-top > .wordmark {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+}

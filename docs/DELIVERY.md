@@ -11,7 +11,7 @@ Original Elnuara portfolio application, November3,2026. The local source is comp
 | Strict Svelte/TypeScript            | Zero errors and warnings                                                                                   |
 | Unit tests                          | 46 passed across catalog, bag, routine, filters, adapter, state and checkout                               |
 | Required first pilot                | 4 Chromium/WebKit cold product/full checkout and cold-query hydration cases passed before the broad matrix |
-| Final combined browser gate         | 88 passed in40.2seconds, zero retries                                                                      |
+| Final combined browser gate         | 88 passed in28.8seconds, zero retries                                                                      |
 | Narrow correction recheck           | 10 targeted320px exact doubled-text cases passed before the final gate                                     |
 | Visual review                       | 95/100 actual desktop/mobile direction and final major-surface review                                      |
 | Screenshot capture                  | No browser warnings/errors/pageerrors or failed assets                                                     |
@@ -29,11 +29,11 @@ Measured from the final adapter-static build with Node filesystem sizes and per-
 
 | Group                         | Files |     Bytes | Sum of gzip bytes |
 | ----------------------------- | ----: | --------: | ----------------: |
-| JavaScript                    |    28 |   171,687 |            68,803 |
-| CSS                           |     1 |    45,731 |             9,244 |
+| JavaScript                    |    28 |   171,755 |            68,825 |
+| CSS                           |     1 |    45,834 |             9,264 |
 | WOFF2 fonts                   |     2 |    94,660 |            94,731 |
 | Responsive WebP photographs   |    38 | 1,411,424 |         1,412,630 |
-| HTML, including deliberate404 |    15 |   241,195 |            52,648 |
+| HTML, including deliberate404 |    15 |   241,243 |            52,672 |
 
 Already compressed WOFF2/WebP files may grow under an additional gzip pass. Responsive image sources provide1200px and640px versions. Media native/delivery sizes, the one explicitly disclosed portrait upscale, exact prompts and full hashes are recorded in [image provenance](IMAGE_PROVENANCE.md). No Lighthouse run or invented performance score is claimed.
 
@@ -44,3 +44,5 @@ This is a static fictional commerce and product-preference demonstration. No liv
 Automated Axe and browser checks do not certify accessibility. Actual touch-enabled browser contexts were tested, but physical-device assistive-technology and screen-reader verification was not performed.
 
 The current npm audit reports16 development-tool package findings (4low/12moderate), arising from the deepmerge prototype-poisoning and minimatch glob-amplification advisory families; no high/critical findings. `npm audit --omit=dev` reports zero findings. This does not certify the generated browser bundle’s security. No force downgrade, peer bypass or unverified transitive override was used to conceal tooling findings.
+
+Linux WebKit CI additionally exposed a footer wordmark intrinsic width and an event dispatched before filter hydration. The wordmark now wraps intrinsically at large text sizes; filter controls remain natively disabled until their controller mounts, and rapid-event tests await that enabled signal. The recovery journey dismisses its visible success notice through the actual close button before using the footer reset; no forced click, hidden UI, retry or relaxed assertion is used. The corrected local targeted group passed14cases and the complete88-case gate passed again.

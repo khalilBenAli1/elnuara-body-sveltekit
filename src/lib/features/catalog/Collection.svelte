@@ -68,7 +68,7 @@
     </p>
   </div>
   <div class="collection-tools">
-    <fieldset class="type-filters">
+    <fieldset class="type-filters" disabled={!mounted}>
       <legend class="visually-hidden">Product type</legend><button
         class:selected={filters.category === 'All'}
         aria-pressed={filters.category === 'All'}
@@ -83,6 +83,7 @@
     <div class="filter-selects">
       <label
         >Scent<select
+          disabled={!mounted}
           aria-label="Scent"
           value={filters.scent}
           onchange={(e) => {
@@ -96,6 +97,7 @@
         ></label
       ><label
         >Price<select
+          disabled={!mounted}
           aria-label="Price"
           value={filters.price}
           onchange={(e) => {
@@ -108,6 +110,7 @@
         ></label
       ><label
         >Sort<select
+          disabled={!mounted}
           aria-label="Sort"
           value={filters.sort}
           onchange={(e) => {
